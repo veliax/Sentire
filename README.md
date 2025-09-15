@@ -1,1 +1,2 @@
-# Sentire---An-Intelligent-General-Purpose-Incident-Detection-System-
+# Sentire
+An Intelligent General Purpose Incident Detection System
