@@ -1,7 +1,7 @@
 # Sentire
 An Intelligent General Purpose Incident Detection System
 
-# Frontend Obejctives for 19th of february
+## Frontend Obejctives for 19th of february
 1. Login page with form that can be sent to the backend via json format
 
 2. Signup page with form that can be sent to the backend via json format
