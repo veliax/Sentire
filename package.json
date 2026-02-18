@@ -1,0 +1,24 @@
+{
+  "name": "sentire",
+  "version": "1.0.0",
+  "description": "An Intelligent General Purpose Incident Detection System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veliax/Sentire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/veliax/Sentire/issues"
+  },
+  "homepage": "https://github.com/veliax/Sentire#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
