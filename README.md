@@ -8,13 +8,12 @@ An Intelligent General Purpose Incident Detection System
 
 ## Backend Objectives for 19th of february 
 
-### Construct the skeleton 
+### Construct the skeleton (Done) 
 Create The initial necessary files, Ensure that nodejs works, Package json should have the modules type, Additionally you should create the majority of the directories you will work in. 
-
-### Create The database's script
+### Create The database's script (Done)
 Create A database initialziation script that will run once during each instance of the project. (A script that will initilize the schema we created once).
 
-### Create the initial authentication process
+### Create the initial authentication process (Working on it Atm)
 1. Ensure that users can create accounts / login
 
 2. Create the auth jwt token file and ensure that jwt is properly being sent and stored.
