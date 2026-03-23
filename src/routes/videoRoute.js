@@ -20,38 +20,96 @@ const upload = multer({
   }
 })
 
-function runDetection(filePath, videoId) {
+// --- Pipeline runners --------------------------------------------------------
+
+function runPython(script, args) {
     return new Promise((resolve, reject) => {
-        const python = spawn('./venv/bin/python', [
-            'src/pipeline/detect.py',
-            filePath,
-            videoId.toString()
-        ])
+        const python = spawn('./venv/bin/python', [script, ...args])
 
-        let output = ''
+        let stdout = ''
+        let stderr = ''
 
-        python.stdout.on('data', (data) => {
-            output += data.toString()
-        })
-
+        python.stdout.on('data', (data) => { stdout += data.toString() })
         python.stderr.on('data', (data) => {
-            console.error('Detection stderr:', data.toString())
+            const text = data.toString()
+            stderr += text
+            // Mirror python stderr to node stderr so logs line up while debugging
+            process.stderr.write(`[${script}] ${text}`)
         })
 
         python.on('close', (code) => {
             if (code !== 0) {
-                reject(new Error(`Detection process exited with code ${code}`))
+                reject(new Error(`${script} exited with code ${code}: ${stderr}`))
                 return
             }
+            // The python scripts print a single JSON object on the LAST line of stdout.
+            // Use the last non-empty line so any earlier prints don't break parsing.
+            const lines = stdout.trim().split('\n').filter(Boolean)
+            const last = lines[lines.length - 1] || ''
             try {
-                const result = JSON.parse(output)
-                resolve(result)
+                resolve(JSON.parse(last))
             } catch (err) {
-                reject(new Error('Failed to parse detection output'))
+                reject(new Error(`Failed to parse ${script} output: ${last.slice(0, 200)}`))
             }
         })
     })
 }
+
+function runDetection(filePath, videoId) {
+    return runPython('src/pipeline/detect.py', [filePath, videoId.toString()])
+}
+
+function runVlm(filePath, videoId) {
+    return runPython('src/pipeline/vlm.py', [filePath, videoId.toString()])
+}
+
+// --- Helpers -----------------------------------------------------------------
+
+/**
+ * Convert an "MM:SS" offset string + ISO base timestamp into an ISO timestamp.
+ * Falls back to the base timestamp on parse failure.
+ */
+function offsetToIso(mmss, baseIso) {
+    if (typeof mmss !== 'string') return baseIso
+    const m = /^(\d{1,2}):(\d{2})$/.exec(mmss.trim())
+    if (!m) return baseIso
+    const seconds = parseInt(m[1], 10) * 60 + parseInt(m[2], 10)
+    return new Date(new Date(baseIso).getTime() + seconds * 1000).toISOString()
+}
+
+function insertEvents(videoId, events, videoTimeStart) {
+    if (!events || events.length === 0) return 0
+
+    const insert = db.prepare(`
+        INSERT INTO Events (Video_id, Sequence_number, Severity, Description, Event_start, Event_end, Duration)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    `)
+
+    const tx = db.transaction((rows) => {
+        for (const ev of rows) {
+            const startIso = offsetToIso(ev.event_start, videoTimeStart)
+            const endIso   = offsetToIso(ev.event_end, videoTimeStart)
+            const duration = Math.max(
+                0,
+                Math.round((new Date(endIso).getTime() - new Date(startIso).getTime()) / 1000)
+            )
+            insert.run(
+                videoId,
+                ev.sequence_number,
+                ev.severity,
+                ev.description,
+                startIso,
+                endIso,
+                duration,
+            )
+        }
+    })
+
+    tx(events)
+    return events.length
+}
+
+// --- Routes ------------------------------------------------------------------
 
 router.post('/upload', upload.single('video'), async (req, res) => {
     if (!req.file) {
@@ -97,18 +155,25 @@ router.post('/upload', upload.single('video'), async (req, res) => {
             time_end
         })
 
-        // Run detection in background
+        // --- Background pipeline: detect -> vlm -> insert events ---
         db.prepare(`UPDATE Videos SET Status = 'processing' WHERE Id = ?`).run(video_id)
 
         runDetection(filePath, video_id)
-            .then((result) => {
+            .then(async (detectResult) => {
                 console.log(`Detection complete for video ${video_id}`)
-                db.prepare(`UPDATE Videos SET Processed_path = ?, Status = 'done' WHERE Id = ?`)
-                    .run(result.processed_video, video_id)
-                console.log(`Processed video saved: ${result.processed_video}`)
+                db.prepare(`UPDATE Videos SET Processed_path = ? WHERE Id = ?`)
+                    .run(detectResult.processed_video, video_id)
+
+                // Run VLM stage. We send the original (raw) video — Gemini doesn't
+                // need the burned-in boxes; it gets grounding from llm_input.json.
+                const vlmResult = await runVlm(filePath, video_id)
+                const inserted = insertEvents(video_id, vlmResult.events, time_start)
+                console.log(`VLM complete for video ${video_id}: ${inserted} events inserted`)
+
+                db.prepare(`UPDATE Videos SET Status = 'done' WHERE Id = ?`).run(video_id)
             })
             .catch((err) => {
-                console.error(`Detection failed for video ${video_id}:`, err)
+                console.error(`Pipeline failed for video ${video_id}:`, err)
                 db.prepare(`UPDATE Videos SET Status = 'error' WHERE Id = ?`).run(video_id)
             })
 
@@ -149,7 +214,7 @@ router.get('/:id', async (req, res) => {
         if (!video) return res.status(404).json({ error: 'Video not found' })
 
         const events = db.prepare(`
-            SELECT Sequence_number, Severity, Description, Event_start, Event_end
+            SELECT Sequence_number, Severity, Description, Event_start, Event_end, Duration
             FROM Events
             WHERE Video_id = ?
             ORDER BY Sequence_number ASC

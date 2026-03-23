@@ -66,6 +66,17 @@ db.exec(`
     )
   `);
 
+    db.exec(`
+    CREATE TABLE Reports (
+      Id INTEGER PRIMARY KEY AUTOINCREMENT,
+      Video_id INTEGER NOT NULL UNIQUE,
+      Narrative TEXT NOT NULL,
+      Stats_json TEXT NOT NULL,
+      Generated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (Video_id) REFERENCES Videos(Id)
+    )
+  `);
+
 
 } else {
   db = new Database(dbpath, { verbose: console.log })

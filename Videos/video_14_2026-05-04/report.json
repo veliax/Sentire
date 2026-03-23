@@ -1,0 +1,18 @@
+{
+  "video_id": 14,
+  "narrative": "This report details observations from Video_14, recorded between 00:02 and 00:14. The footage captured the activity of a single individual, with the highest severity event rated as medium.\n\nAt 00:02, a person (YOLO class: person) was observed entering the shop. This entry concluded at 00:03 and was categorized as a low severity event. From 00:04 to 00:12, the same person (YOLO class: person) stood near the counter, appearing to observe the area. This prolonged observation was rated as a medium severity event. Subsequently, between 00:13 and 00:14, the person (YOLO class: person) quickly exited the shop. This departure was categorized as a low severity event. A total of 23 frames were analyzed, with the object class \"person\" detected in all frames.\n\nThe observed sequence of events, particularly the period of sustained observation near the counter, warrants a moderate level of concern.",
+  "stats": {
+    "total_frames_analyzed": 23,
+    "priority_frames": 0,
+    "object_class_counts": {
+      "person": 23
+    },
+    "events_total": 3,
+    "severity_counts": {
+      "low": 2,
+      "medium": 1,
+      "high": 0
+    },
+    "highest_severity": "medium"
+  }
+}
