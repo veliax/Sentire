@@ -22,7 +22,6 @@ router.get('/profile', (req, res) => {
     }
 })
 
-// Redundant as the users account is created within /register
 router.post('/profile', (req, res) => {
     res.status(405).json({ error: 'Method not allowed' })
 })
@@ -50,7 +49,6 @@ router.put('/profile', (req, res) => {
         return res.status(400).json({ error: 'Invalid email format' })
     }
 
-    // Fix 3: validate age is a positive number
     if (isNaN(age) || Number(age) <= 0) {
         return res.status(400).json({ error: 'Invalid age' })
     }
@@ -74,6 +72,33 @@ router.put('/profile', (req, res) => {
         }
 
         return res.status(200).json({ success: 'User has been updated' })
+    } catch (err) {
+        console.error(err)
+        return res.status(500).json({ error: 'Server error' })
+    }
+})
+
+router.delete('/profile', (req, res) => {
+    const user_id = req.userId
+    if (!user_id) {
+        return res.status(400).json({ error: 'Missing user_id' })
+    }
+    try {
+        const getEmail = db.prepare(`SELECT Email FROM Users WHERE Id = ?`)
+        const user = getEmail.get(user_id)
+        if (!user) {
+            return res.status(404).json({ error: 'User not found' })
+        }
+
+        const deleteUserInfo = db.prepare(
+            `UPDATE Users SET Is_deleted = 1, Date_deleted = CURRENT_TIMESTAMP WHERE Id = ?`
+        )
+        const result = deleteUserInfo.run(user_id)
+        if (result.changes === 0) {
+            return res.status(404).json({ error: 'User not found or failed to delete' })
+        }
+
+        return res.status(200).json({ success: 'User has been deleted' })
     } catch (err) {
         console.error(err)
         return res.status(500).json({ error: 'Server error' })
