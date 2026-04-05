@@ -25,12 +25,12 @@ Create A database initialziation script that will run once during each instance 
 Completing User Crud capabilites
 1. Create (done)
 2. Read (done)
-3. Update (wip)
-4. Delete (wip)
+3. Update (Done)
+4. Delete (Done)
 
 All of these should be within the /api/userRoute.js file 
 
-### Cron Jobs
+### Cron Jobs (Done)
 Initially for deleted users past one year (Will Test with 1 minute).
 
 I will implement it for deleted or unwanted videos as well after videos are implemented.
