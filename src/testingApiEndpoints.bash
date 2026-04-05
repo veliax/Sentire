@@ -25,6 +25,9 @@ while true; do
         token=$(jq -r .token < ./token.txt)
         curl -X PUT localhost:5000/api/user/profile -H "Authorization: Bearer $token" -H "Content-Type: application/json" \
             -d '{"email":"'"$email"'","name":"'"$name"'","age":21,"occupation":"IT WORKS I CHANGED IT"}'
+    elif [[ $option == 5 ]]; then 
+	token=$(jq -r .token < ./token.txt)
+	curl -X DELETE localhost:5000/api/user/profile -H "Authorization: Bearer $token"
     else
         echo "Not an option"
     fi
