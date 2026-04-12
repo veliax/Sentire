@@ -4,30 +4,40 @@ import authRoute from '../src/routes/authRoute.js'
 import authMiddleware from '../src/middleWares/authMiddleware.js'
 import userRoute from '../src/routes/userRoute.js'
 import { CronJob } from 'cron'
+import videoRoute from './routes/videoRoute.js'
+import cors from 'cors'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const app = express()
 const PORT = process.env.PORT || 5000
 
+app.use(cors({
+  origin: 'http://localhost:3000'
+}))
+
 app.use(express.json())
 
+// Serve video files statically
+app.use('/Videos', express.static(path.join(__dirname, '../Videos')))
 // User Endpoints
 app.get('/', (req, res) => {
     res.send('<h1>homepage</h1>')
 })
-
 app.get('/login', (req, res) => {
     res.send('<h1>login</h1>')
 })
-
 app.get('/signup', (req, res) => {
     res.send('<h1>signup</h1>')
 })
 
-
 // Api Endpoints
 app.use('/api/auth', authRoute)
 app.use('/api/user', authMiddleware, userRoute)
+app.use('/api/video', authMiddleware, videoRoute)
 
 const deleteFromDb = CronJob.from({
     cronTime: '0 0 0 * * *',

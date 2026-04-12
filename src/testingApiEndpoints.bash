@@ -9,6 +9,8 @@ while true; do
     2= Login-user POST /api/auth/login
     3= Auth & GET /api/user/profile
     4= Auth & PUT /api/user/profile
+    5= Auth & DELETE /api/user/profile
+    6= Auth & POST /api/video/upload
     "
     read option;
 
@@ -26,8 +28,13 @@ while true; do
         curl -X PUT localhost:5000/api/user/profile -H "Authorization: Bearer $token" -H "Content-Type: application/json" \
             -d '{"email":"'"$email"'","name":"'"$name"'","age":21,"occupation":"IT WORKS I CHANGED IT"}'
     elif [[ $option == 5 ]]; then 
-	token=$(jq -r .token < ./token.txt)
-	curl -X DELETE localhost:5000/api/user/profile -H "Authorization: Bearer $token"
+        token=$(jq -r .token < ./token.txt)
+        curl -X DELETE localhost:5000/api/user/profile -H "Authorization: Bearer $token"
+    elif [[ $option == 6 ]]; then
+        token=$(jq -r .token < ./token.txt)
+        curl -X POST localhost:5000/api/video/upload \
+            -H "Authorization: Bearer $token" \
+            -F "video=./test.mp4"
     else
         echo "Not an option"
     fi

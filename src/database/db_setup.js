@@ -24,16 +24,19 @@ db.exec(`
 )
   `);
 
-  db.exec(`
-    CREATE TABLE Videos (
-      Id INTEGER PRIMARY KEY AUTOINCREMENT,
-      Name TEXT,
-      Location TEXT,
-      Duration INTEGER,
-      Time_start TIMESTAMP,
-      Time_end TIMESTAMP
-    )
-  `);
+db.exec(`
+  CREATE TABLE Videos (
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    User_id INTEGER NOT NULL,
+    Name TEXT,
+    File_path TEXT,
+    Location TEXT,
+    Duration INTEGER,
+    Time_start TIMESTAMP,
+    Time_end TIMESTAMP,
+    FOREIGN KEY (User_id) REFERENCES Users(Id)
+  )
+`);
 
   db.exec(`
     CREATE TABLE Logs (
