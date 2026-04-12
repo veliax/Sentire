@@ -30,8 +30,10 @@ db.exec(`
     User_id INTEGER NOT NULL,
     Name TEXT,
     File_path TEXT,
+    Processed_path TEXT,
     Location TEXT,
     Duration INTEGER,
+    Status TEXT DEFAULT 'pending',
     Time_start TIMESTAMP,
     Time_end TIMESTAMP,
     FOREIGN KEY (User_id) REFERENCES Users(Id)
