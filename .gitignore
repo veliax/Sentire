@@ -1,3 +1,6 @@
 .env
 src/tmp/
-src/Videos/
+src/Videos/*
+src/database/sentire_system.db
+
+

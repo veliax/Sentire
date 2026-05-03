@@ -1,0 +1,2961 @@
+{
+  "video_id": 11,
+  "total_frames": 2145,
+  "fps": 30.0,
+  "frames": [
+    {
+      "timestamp": "00:00",
+      "frame": 0,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.787,
+          "priority": false,
+          "bbox": {
+            "x1": 73.33,
+            "y1": 48.37,
+            "x2": 138.45,
+            "y2": 239.57
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:00",
+      "frame": 15,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7758,
+          "priority": false,
+          "bbox": {
+            "x1": 84.76,
+            "y1": 49.22,
+            "x2": 138.28,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:01",
+      "frame": 30,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8311,
+          "priority": false,
+          "bbox": {
+            "x1": 68.93,
+            "y1": 48.37,
+            "x2": 142.19,
+            "y2": 239.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:01",
+      "frame": 45,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.888,
+          "priority": false,
+          "bbox": {
+            "x1": 64.2,
+            "y1": 46.55,
+            "x2": 140.9,
+            "y2": 239.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:02",
+      "frame": 60,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8669,
+          "priority": false,
+          "bbox": {
+            "x1": 66.43,
+            "y1": 48.01,
+            "x2": 140.2,
+            "y2": 239.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:02",
+      "frame": 75,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8645,
+          "priority": false,
+          "bbox": {
+            "x1": 65.24,
+            "y1": 47.98,
+            "x2": 140.29,
+            "y2": 239.7
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:03",
+      "frame": 90,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8566,
+          "priority": false,
+          "bbox": {
+            "x1": 54.19,
+            "y1": 47.91,
+            "x2": 140.21,
+            "y2": 239.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:03",
+      "frame": 105,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8632,
+          "priority": false,
+          "bbox": {
+            "x1": 84.0,
+            "y1": 47.86,
+            "x2": 140.12,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:04",
+      "frame": 120,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8574,
+          "priority": false,
+          "bbox": {
+            "x1": 83.99,
+            "y1": 46.73,
+            "x2": 140.1,
+            "y2": 239.59
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7732,
+          "priority": false,
+          "bbox": {
+            "x1": 0.09,
+            "y1": 40.43,
+            "x2": 56.97,
+            "y2": 145.57
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:04",
+      "frame": 135,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8506,
+          "priority": false,
+          "bbox": {
+            "x1": 78.91,
+            "y1": 45.76,
+            "x2": 138.91,
+            "y2": 239.41
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5991,
+          "priority": false,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 34.86,
+            "x2": 64.69,
+            "y2": 143.9
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:05",
+      "frame": 150,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9215,
+          "priority": false,
+          "bbox": {
+            "x1": 61.87,
+            "y1": 42.93,
+            "x2": 133.8,
+            "y2": 239.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:05",
+      "frame": 165,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9207,
+          "priority": false,
+          "bbox": {
+            "x1": 47.76,
+            "y1": 41.43,
+            "x2": 124.92,
+            "y2": 239.89
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5735,
+          "priority": false,
+          "bbox": {
+            "x1": 0.72,
+            "y1": 35.36,
+            "x2": 63.88,
+            "y2": 139.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:06",
+      "frame": 180,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9111,
+          "priority": false,
+          "bbox": {
+            "x1": 51.05,
+            "y1": 35.7,
+            "x2": 131.28,
+            "y2": 239.8
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6342,
+          "priority": false,
+          "bbox": {
+            "x1": 0.08,
+            "y1": 33.4,
+            "x2": 65.78,
+            "y2": 141.3
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:06",
+      "frame": 195,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9133,
+          "priority": false,
+          "bbox": {
+            "x1": 66.9,
+            "y1": 35.94,
+            "x2": 132.89,
+            "y2": 239.6
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6027,
+          "priority": false,
+          "bbox": {
+            "x1": 0.32,
+            "y1": 33.73,
+            "x2": 72.67,
+            "y2": 141.24
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:07",
+      "frame": 210,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9145,
+          "priority": false,
+          "bbox": {
+            "x1": 71.66,
+            "y1": 33.98,
+            "x2": 135.35,
+            "y2": 239.8
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5474,
+          "priority": false,
+          "bbox": {
+            "x1": 1.15,
+            "y1": 34.02,
+            "x2": 64.1,
+            "y2": 136.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:07",
+      "frame": 225,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8927,
+          "priority": false,
+          "bbox": {
+            "x1": 73.25,
+            "y1": 34.05,
+            "x2": 134.19,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:08",
+      "frame": 240,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8932,
+          "priority": false,
+          "bbox": {
+            "x1": 73.77,
+            "y1": 34.04,
+            "x2": 135.09,
+            "y2": 239.74
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5435,
+          "priority": false,
+          "bbox": {
+            "x1": 2.12,
+            "y1": 35.19,
+            "x2": 68.5,
+            "y2": 133.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:08",
+      "frame": 255,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8905,
+          "priority": false,
+          "bbox": {
+            "x1": 73.75,
+            "y1": 34.5,
+            "x2": 134.26,
+            "y2": 239.78
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6753,
+          "priority": false,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 38.53,
+            "x2": 63.78,
+            "y2": 138.52
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:09",
+      "frame": 270,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.891,
+          "priority": false,
+          "bbox": {
+            "x1": 72.67,
+            "y1": 34.2,
+            "x2": 133.95,
+            "y2": 239.8
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7161,
+          "priority": false,
+          "bbox": {
+            "x1": 0.0,
+            "y1": 38.38,
+            "x2": 64.39,
+            "y2": 136.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:09",
+      "frame": 285,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8767,
+          "priority": false,
+          "bbox": {
+            "x1": 73.92,
+            "y1": 34.14,
+            "x2": 133.93,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:10",
+      "frame": 300,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8809,
+          "priority": false,
+          "bbox": {
+            "x1": 73.53,
+            "y1": 34.28,
+            "x2": 134.43,
+            "y2": 239.74
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6636,
+          "priority": false,
+          "bbox": {
+            "x1": 0.26,
+            "y1": 37.46,
+            "x2": 56.66,
+            "y2": 131.17
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:10",
+      "frame": 315,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8865,
+          "priority": false,
+          "bbox": {
+            "x1": 74.58,
+            "y1": 34.34,
+            "x2": 135.26,
+            "y2": 239.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11",
+      "frame": 330,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8829,
+          "priority": false,
+          "bbox": {
+            "x1": 74.35,
+            "y1": 34.21,
+            "x2": 134.9,
+            "y2": 239.61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:11",
+      "frame": 345,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8885,
+          "priority": false,
+          "bbox": {
+            "x1": 71.12,
+            "y1": 34.6,
+            "x2": 134.82,
+            "y2": 239.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:12",
+      "frame": 360,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9069,
+          "priority": false,
+          "bbox": {
+            "x1": 70.4,
+            "y1": 34.59,
+            "x2": 134.48,
+            "y2": 239.73
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:12",
+      "frame": 375,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9002,
+          "priority": false,
+          "bbox": {
+            "x1": 70.36,
+            "y1": 34.56,
+            "x2": 134.24,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:13",
+      "frame": 390,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9039,
+          "priority": false,
+          "bbox": {
+            "x1": 70.0,
+            "y1": 34.43,
+            "x2": 134.38,
+            "y2": 239.69
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:13",
+      "frame": 405,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9026,
+          "priority": false,
+          "bbox": {
+            "x1": 69.68,
+            "y1": 34.45,
+            "x2": 134.97,
+            "y2": 239.77
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:14",
+      "frame": 420,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9033,
+          "priority": false,
+          "bbox": {
+            "x1": 69.89,
+            "y1": 34.68,
+            "x2": 135.99,
+            "y2": 239.73
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:14",
+      "frame": 435,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9111,
+          "priority": false,
+          "bbox": {
+            "x1": 68.98,
+            "y1": 34.85,
+            "x2": 136.42,
+            "y2": 239.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:15",
+      "frame": 450,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9266,
+          "priority": false,
+          "bbox": {
+            "x1": 64.96,
+            "y1": 35.68,
+            "x2": 133.17,
+            "y2": 239.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:15",
+      "frame": 465,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9072,
+          "priority": false,
+          "bbox": {
+            "x1": 47.89,
+            "y1": 33.84,
+            "x2": 120.69,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:16",
+      "frame": 480,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8981,
+          "priority": false,
+          "bbox": {
+            "x1": 38.23,
+            "y1": 38.21,
+            "x2": 110.14,
+            "y2": 239.91
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:16",
+      "frame": 495,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8929,
+          "priority": false,
+          "bbox": {
+            "x1": 33.69,
+            "y1": 38.59,
+            "x2": 105.96,
+            "y2": 239.95
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:17",
+      "frame": 510,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8772,
+          "priority": false,
+          "bbox": {
+            "x1": 31.62,
+            "y1": 39.82,
+            "x2": 105.26,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:17",
+      "frame": 525,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8785,
+          "priority": false,
+          "bbox": {
+            "x1": 30.75,
+            "y1": 40.97,
+            "x2": 105.45,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:18",
+      "frame": 540,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9267,
+          "priority": false,
+          "bbox": {
+            "x1": 0.22,
+            "y1": 37.73,
+            "x2": 105.88,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:18",
+      "frame": 555,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9288,
+          "priority": false,
+          "bbox": {
+            "x1": 0.26,
+            "y1": 38.73,
+            "x2": 105.9,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:19",
+      "frame": 570,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9206,
+          "priority": false,
+          "bbox": {
+            "x1": 0.18,
+            "y1": 39.56,
+            "x2": 105.34,
+            "y2": 239.95
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6789,
+          "priority": false,
+          "bbox": {
+            "x1": 185.52,
+            "y1": 51.81,
+            "x2": 243.95,
+            "y2": 239.61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:19",
+      "frame": 585,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9228,
+          "priority": false,
+          "bbox": {
+            "x1": 0.12,
+            "y1": 40.79,
+            "x2": 105.13,
+            "y2": 239.84
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8146,
+          "priority": false,
+          "bbox": {
+            "x1": 158.38,
+            "y1": 45.15,
+            "x2": 219.81,
+            "y2": 239.86
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:20",
+      "frame": 600,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.924,
+          "priority": false,
+          "bbox": {
+            "x1": 0.06,
+            "y1": 40.96,
+            "x2": 105.45,
+            "y2": 239.85
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8692,
+          "priority": false,
+          "bbox": {
+            "x1": 132.35,
+            "y1": 41.75,
+            "x2": 190.89,
+            "y2": 239.73
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:20",
+      "frame": 615,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9307,
+          "priority": false,
+          "bbox": {
+            "x1": 0.08,
+            "y1": 41.23,
+            "x2": 105.32,
+            "y2": 239.65
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8221,
+          "priority": false,
+          "bbox": {
+            "x1": 107.67,
+            "y1": 38.74,
+            "x2": 170.12,
+            "y2": 239.79
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:21",
+      "frame": 630,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9251,
+          "priority": false,
+          "bbox": {
+            "x1": 0.16,
+            "y1": 41.31,
+            "x2": 105.06,
+            "y2": 239.77
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.857,
+          "priority": false,
+          "bbox": {
+            "x1": 108.8,
+            "y1": 38.56,
+            "x2": 160.52,
+            "y2": 239.62
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:21",
+      "frame": 645,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8646,
+          "priority": false,
+          "bbox": {
+            "x1": 0.2,
+            "y1": 41.49,
+            "x2": 104.49,
+            "y2": 239.73
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8193,
+          "priority": false,
+          "bbox": {
+            "x1": 54.44,
+            "y1": 35.8,
+            "x2": 157.05,
+            "y2": 239.76
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:22",
+      "frame": 660,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8579,
+          "priority": false,
+          "bbox": {
+            "x1": 41.87,
+            "y1": 30.45,
+            "x2": 156.11,
+            "y2": 240.0
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7965,
+          "priority": false,
+          "bbox": {
+            "x1": 13.15,
+            "y1": 41.72,
+            "x2": 101.38,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:22",
+      "frame": 675,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8884,
+          "priority": false,
+          "bbox": {
+            "x1": 41.45,
+            "y1": 31.17,
+            "x2": 152.6,
+            "y2": 240.0
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7667,
+          "priority": false,
+          "bbox": {
+            "x1": 15.09,
+            "y1": 39.61,
+            "x2": 93.25,
+            "y2": 239.4
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23",
+      "frame": 690,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8253,
+          "priority": false,
+          "bbox": {
+            "x1": 50.82,
+            "y1": 29.08,
+            "x2": 152.78,
+            "y2": 239.77
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:23",
+      "frame": 705,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7558,
+          "priority": false,
+          "bbox": {
+            "x1": 0.08,
+            "y1": 48.13,
+            "x2": 35.1,
+            "y2": 148.79
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6719,
+          "priority": false,
+          "bbox": {
+            "x1": 66.08,
+            "y1": 24.94,
+            "x2": 151.86,
+            "y2": 240.0
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.545,
+          "priority": false,
+          "bbox": {
+            "x1": 53.81,
+            "y1": 28.51,
+            "x2": 100.07,
+            "y2": 239.65
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:24",
+      "frame": 720,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.856,
+          "priority": false,
+          "bbox": {
+            "x1": 62.0,
+            "y1": 25.06,
+            "x2": 149.43,
+            "y2": 239.94
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7549,
+          "priority": false,
+          "bbox": {
+            "x1": 40.97,
+            "y1": 28.5,
+            "x2": 97.54,
+            "y2": 239.75
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:24",
+      "frame": 735,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8199,
+          "priority": false,
+          "bbox": {
+            "x1": 62.45,
+            "y1": 24.91,
+            "x2": 146.79,
+            "y2": 239.85
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7727,
+          "priority": false,
+          "bbox": {
+            "x1": 39.33,
+            "y1": 28.17,
+            "x2": 94.08,
+            "y2": 239.83
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5125,
+          "priority": false,
+          "bbox": {
+            "x1": 0.09,
+            "y1": 46.96,
+            "x2": 47.49,
+            "y2": 218.13
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:25",
+      "frame": 750,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.844,
+          "priority": false,
+          "bbox": {
+            "x1": 76.78,
+            "y1": 25.01,
+            "x2": 147.62,
+            "y2": 239.68
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6605,
+          "priority": false,
+          "bbox": {
+            "x1": 47.37,
+            "y1": 30.97,
+            "x2": 92.97,
+            "y2": 239.62
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6112,
+          "priority": false,
+          "bbox": {
+            "x1": 0.08,
+            "y1": 45.27,
+            "x2": 47.89,
+            "y2": 144.03
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:25",
+      "frame": 765,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7411,
+          "priority": false,
+          "bbox": {
+            "x1": 90.2,
+            "y1": 24.66,
+            "x2": 150.05,
+            "y2": 239.97
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5707,
+          "priority": false,
+          "bbox": {
+            "x1": 50.05,
+            "y1": 31.48,
+            "x2": 99.43,
+            "y2": 239.26
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5629,
+          "priority": false,
+          "bbox": {
+            "x1": 0.05,
+            "y1": 45.38,
+            "x2": 50.64,
+            "y2": 147.06
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:26",
+      "frame": 780,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.757,
+          "priority": false,
+          "bbox": {
+            "x1": 39.64,
+            "y1": 31.13,
+            "x2": 107.79,
+            "y2": 239.43
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7,
+          "priority": false,
+          "bbox": {
+            "x1": 99.32,
+            "y1": 25.39,
+            "x2": 142.94,
+            "y2": 239.52
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6532,
+          "priority": false,
+          "bbox": {
+            "x1": 0.07,
+            "y1": 45.31,
+            "x2": 44.35,
+            "y2": 146.37
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:26",
+      "frame": 795,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8558,
+          "priority": false,
+          "bbox": {
+            "x1": 40.28,
+            "y1": 28.84,
+            "x2": 104.92,
+            "y2": 239.65
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8225,
+          "priority": false,
+          "bbox": {
+            "x1": 83.74,
+            "y1": 23.7,
+            "x2": 141.57,
+            "y2": 240.0
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5951,
+          "priority": false,
+          "bbox": {
+            "x1": 0.01,
+            "y1": 45.85,
+            "x2": 46.95,
+            "y2": 146.13
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:27",
+      "frame": 810,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7882,
+          "priority": false,
+          "bbox": {
+            "x1": 39.13,
+            "y1": 29.55,
+            "x2": 105.62,
+            "y2": 239.41
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6826,
+          "priority": false,
+          "bbox": {
+            "x1": 83.0,
+            "y1": 23.44,
+            "x2": 142.03,
+            "y2": 239.67
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6555,
+          "priority": false,
+          "bbox": {
+            "x1": 0.07,
+            "y1": 46.85,
+            "x2": 44.4,
+            "y2": 145.41
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:27",
+      "frame": 825,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8522,
+          "priority": false,
+          "bbox": {
+            "x1": 70.7,
+            "y1": 23.52,
+            "x2": 147.86,
+            "y2": 239.83
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.803,
+          "priority": false,
+          "bbox": {
+            "x1": 44.58,
+            "y1": 29.83,
+            "x2": 101.96,
+            "y2": 239.47
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5582,
+          "priority": false,
+          "bbox": {
+            "x1": 0.05,
+            "y1": 45.94,
+            "x2": 42.17,
+            "y2": 145.79
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:28",
+      "frame": 840,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.818,
+          "priority": false,
+          "bbox": {
+            "x1": 50.45,
+            "y1": 30.49,
+            "x2": 99.58,
+            "y2": 239.09
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8101,
+          "priority": false,
+          "bbox": {
+            "x1": 72.41,
+            "y1": 26.26,
+            "x2": 145.4,
+            "y2": 239.96
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6045,
+          "priority": false,
+          "bbox": {
+            "x1": 0.02,
+            "y1": 49.42,
+            "x2": 44.62,
+            "y2": 137.05
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:28",
+      "frame": 855,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8172,
+          "priority": false,
+          "bbox": {
+            "x1": 73.76,
+            "y1": 23.25,
+            "x2": 145.56,
+            "y2": 240.0
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.81,
+          "priority": false,
+          "bbox": {
+            "x1": 51.68,
+            "y1": 29.92,
+            "x2": 100.77,
+            "y2": 239.34
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7295,
+          "priority": false,
+          "bbox": {
+            "x1": 0.06,
+            "y1": 48.41,
+            "x2": 44.0,
+            "y2": 143.52
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:29",
+      "frame": 870,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8001,
+          "priority": false,
+          "bbox": {
+            "x1": 42.37,
+            "y1": 31.78,
+            "x2": 99.78,
+            "y2": 239.5
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.674,
+          "priority": false,
+          "bbox": {
+            "x1": 0.05,
+            "y1": 48.55,
+            "x2": 43.25,
+            "y2": 141.06
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:29",
+      "frame": 885,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7969,
+          "priority": false,
+          "bbox": {
+            "x1": 31.76,
+            "y1": 31.51,
+            "x2": 101.46,
+            "y2": 239.66
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6258,
+          "priority": false,
+          "bbox": {
+            "x1": 0.05,
+            "y1": 47.0,
+            "x2": 39.82,
+            "y2": 143.51
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:30",
+      "frame": 900,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6128,
+          "priority": false,
+          "bbox": {
+            "x1": 68.67,
+            "y1": 25.21,
+            "x2": 144.87,
+            "y2": 239.92
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6059,
+          "priority": false,
+          "bbox": {
+            "x1": 41.65,
+            "y1": 30.45,
+            "x2": 104.09,
+            "y2": 238.87
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:30",
+      "frame": 915,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8733,
+          "priority": false,
+          "bbox": {
+            "x1": 99.36,
+            "y1": 25.4,
+            "x2": 143.58,
+            "y2": 239.5
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6891,
+          "priority": false,
+          "bbox": {
+            "x1": 46.74,
+            "y1": 26.53,
+            "x2": 106.46,
+            "y2": 239.5
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:31",
+      "frame": 930,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8735,
+          "priority": false,
+          "bbox": {
+            "x1": 94.05,
+            "y1": 28.1,
+            "x2": 143.19,
+            "y2": 239.86
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7769,
+          "priority": false,
+          "bbox": {
+            "x1": 57.86,
+            "y1": 27.09,
+            "x2": 104.31,
+            "y2": 239.74
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:31",
+      "frame": 945,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.87,
+          "priority": false,
+          "bbox": {
+            "x1": 94.04,
+            "y1": 29.06,
+            "x2": 139.91,
+            "y2": 239.81
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7464,
+          "priority": false,
+          "bbox": {
+            "x1": 59.42,
+            "y1": 29.58,
+            "x2": 102.29,
+            "y2": 239.59
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7413,
+          "priority": false,
+          "bbox": {
+            "x1": 0.06,
+            "y1": 46.54,
+            "x2": 43.35,
+            "y2": 146.78
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:32",
+      "frame": 960,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8425,
+          "priority": false,
+          "bbox": {
+            "x1": 87.66,
+            "y1": 27.34,
+            "x2": 139.51,
+            "y2": 239.49
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6716,
+          "priority": false,
+          "bbox": {
+            "x1": 49.57,
+            "y1": 44.2,
+            "x2": 114.82,
+            "y2": 239.78
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:32",
+      "frame": 975,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7168,
+          "priority": false,
+          "bbox": {
+            "x1": 51.81,
+            "y1": 70.63,
+            "x2": 169.66,
+            "y2": 239.51
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:33",
+      "frame": 990,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8768,
+          "priority": false,
+          "bbox": {
+            "x1": 104.66,
+            "y1": 175.21,
+            "x2": 203.94,
+            "y2": 239.86
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:34",
+      "frame": 1020,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6015,
+          "priority": false,
+          "bbox": {
+            "x1": 75.11,
+            "y1": 179.97,
+            "x2": 182.17,
+            "y2": 239.91
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:35",
+      "frame": 1065,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8243,
+          "priority": false,
+          "bbox": {
+            "x1": 128.0,
+            "y1": 133.58,
+            "x2": 234.66,
+            "y2": 239.84
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:38",
+      "frame": 1140,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6167,
+          "priority": false,
+          "bbox": {
+            "x1": 129.56,
+            "y1": 92.5,
+            "x2": 241.53,
+            "y2": 239.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:38",
+      "frame": 1155,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6662,
+          "priority": false,
+          "bbox": {
+            "x1": 141.64,
+            "y1": 61.12,
+            "x2": 232.89,
+            "y2": 239.63
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39",
+      "frame": 1170,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7723,
+          "priority": false,
+          "bbox": {
+            "x1": 130.79,
+            "y1": 67.96,
+            "x2": 260.57,
+            "y2": 239.64
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:39",
+      "frame": 1185,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9049,
+          "priority": false,
+          "bbox": {
+            "x1": 177.36,
+            "y1": 94.91,
+            "x2": 281.12,
+            "y2": 239.95
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:40",
+      "frame": 1200,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7815,
+          "priority": false,
+          "bbox": {
+            "x1": 157.32,
+            "y1": 121.54,
+            "x2": 287.16,
+            "y2": 239.83
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:40",
+      "frame": 1215,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6032,
+          "priority": false,
+          "bbox": {
+            "x1": 158.84,
+            "y1": 68.44,
+            "x2": 266.9,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:41",
+      "frame": 1230,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8257,
+          "priority": false,
+          "bbox": {
+            "x1": 105.91,
+            "y1": 91.36,
+            "x2": 244.03,
+            "y2": 239.66
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.635,
+          "priority": false,
+          "bbox": {
+            "x1": 174.56,
+            "y1": 16.25,
+            "x2": 256.81,
+            "y2": 239.17
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:41",
+      "frame": 1245,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.839,
+          "priority": false,
+          "bbox": {
+            "x1": 203.16,
+            "y1": 72.81,
+            "x2": 281.41,
+            "y2": 238.93
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8291,
+          "priority": false,
+          "bbox": {
+            "x1": 127.57,
+            "y1": 85.96,
+            "x2": 226.58,
+            "y2": 239.6
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:42",
+      "frame": 1260,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.5678,
+          "priority": false,
+          "bbox": {
+            "x1": 184.09,
+            "y1": 123.02,
+            "x2": 267.31,
+            "y2": 239.81
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:45",
+      "frame": 1365,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6812,
+          "priority": false,
+          "bbox": {
+            "x1": 174.45,
+            "y1": 135.34,
+            "x2": 273.71,
+            "y2": 239.92
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:46",
+      "frame": 1380,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.5974,
+          "priority": false,
+          "bbox": {
+            "x1": 179.96,
+            "y1": 116.37,
+            "x2": 275.16,
+            "y2": 239.77
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:46",
+      "frame": 1395,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8063,
+          "priority": false,
+          "bbox": {
+            "x1": 213.05,
+            "y1": 75.58,
+            "x2": 287.55,
+            "y2": 239.8
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:49",
+      "frame": 1485,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.5801,
+          "priority": false,
+          "bbox": {
+            "x1": 242.36,
+            "y1": 61.1,
+            "x2": 319.29,
+            "y2": 236.56
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:50",
+      "frame": 1500,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7242,
+          "priority": false,
+          "bbox": {
+            "x1": 136.7,
+            "y1": 66.53,
+            "x2": 318.33,
+            "y2": 239.53
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:50",
+      "frame": 1515,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.764,
+          "priority": false,
+          "bbox": {
+            "x1": 91.81,
+            "y1": 98.45,
+            "x2": 203.49,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51",
+      "frame": 1530,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8918,
+          "priority": false,
+          "bbox": {
+            "x1": 58.26,
+            "y1": 91.14,
+            "x2": 169.0,
+            "y2": 239.81
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:51",
+      "frame": 1545,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8098,
+          "priority": false,
+          "bbox": {
+            "x1": 41.54,
+            "y1": 69.51,
+            "x2": 221.42,
+            "y2": 239.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52",
+      "frame": 1560,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8695,
+          "priority": false,
+          "bbox": {
+            "x1": 158.27,
+            "y1": 126.87,
+            "x2": 256.26,
+            "y2": 239.83
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8278,
+          "priority": false,
+          "bbox": {
+            "x1": 70.34,
+            "y1": 116.96,
+            "x2": 146.89,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:52",
+      "frame": 1575,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6842,
+          "priority": false,
+          "bbox": {
+            "x1": 106.42,
+            "y1": 105.77,
+            "x2": 204.68,
+            "y2": 239.67
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5797,
+          "priority": false,
+          "bbox": {
+            "x1": 177.21,
+            "y1": 112.81,
+            "x2": 279.96,
+            "y2": 239.82
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53",
+      "frame": 1590,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8496,
+          "priority": false,
+          "bbox": {
+            "x1": 193.24,
+            "y1": 115.91,
+            "x2": 284.56,
+            "y2": 239.85
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7711,
+          "priority": false,
+          "bbox": {
+            "x1": 114.39,
+            "y1": 60.54,
+            "x2": 215.62,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:53",
+      "frame": 1605,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8154,
+          "priority": false,
+          "bbox": {
+            "x1": 129.79,
+            "y1": 64.42,
+            "x2": 249.65,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:54",
+      "frame": 1620,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7539,
+          "priority": false,
+          "bbox": {
+            "x1": 171.03,
+            "y1": 72.63,
+            "x2": 262.68,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:54",
+      "frame": 1635,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6606,
+          "priority": false,
+          "bbox": {
+            "x1": 143.02,
+            "y1": 79.31,
+            "x2": 244.74,
+            "y2": 239.6
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:55",
+      "frame": 1650,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6667,
+          "priority": false,
+          "bbox": {
+            "x1": 134.47,
+            "y1": 128.72,
+            "x2": 261.83,
+            "y2": 239.83
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.589,
+          "priority": false,
+          "bbox": {
+            "x1": 154.33,
+            "y1": 70.46,
+            "x2": 234.07,
+            "y2": 171.95
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:55",
+      "frame": 1665,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7412,
+          "priority": false,
+          "bbox": {
+            "x1": 60.53,
+            "y1": 118.06,
+            "x2": 156.05,
+            "y2": 239.77
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.706,
+          "priority": false,
+          "bbox": {
+            "x1": 138.65,
+            "y1": 67.17,
+            "x2": 247.53,
+            "y2": 239.44
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:56",
+      "frame": 1680,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8815,
+          "priority": false,
+          "bbox": {
+            "x1": 46.62,
+            "y1": 95.89,
+            "x2": 178.51,
+            "y2": 239.89
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.748,
+          "priority": false,
+          "bbox": {
+            "x1": 106.87,
+            "y1": 54.7,
+            "x2": 264.97,
+            "y2": 239.89
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:56",
+      "frame": 1695,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.5579,
+          "priority": false,
+          "bbox": {
+            "x1": 167.83,
+            "y1": 104.78,
+            "x2": 300.17,
+            "y2": 239.42
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:57",
+      "frame": 1710,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.6189,
+          "priority": false,
+          "bbox": {
+            "x1": 164.06,
+            "y1": 97.63,
+            "x2": 299.58,
+            "y2": 239.81
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:57",
+      "frame": 1725,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8111,
+          "priority": false,
+          "bbox": {
+            "x1": 120.62,
+            "y1": 58.33,
+            "x2": 197.32,
+            "y2": 239.75
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8076,
+          "priority": false,
+          "bbox": {
+            "x1": 167.14,
+            "y1": 87.47,
+            "x2": 303.24,
+            "y2": 239.54
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:58",
+      "frame": 1740,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8829,
+          "priority": false,
+          "bbox": {
+            "x1": 155.31,
+            "y1": 72.1,
+            "x2": 272.04,
+            "y2": 239.69
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7636,
+          "priority": false,
+          "bbox": {
+            "x1": 120.2,
+            "y1": 59.18,
+            "x2": 189.78,
+            "y2": 239.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:58",
+      "frame": 1755,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7989,
+          "priority": false,
+          "bbox": {
+            "x1": 157.37,
+            "y1": 62.69,
+            "x2": 233.1,
+            "y2": 239.44
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:59",
+      "frame": 1770,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8818,
+          "priority": false,
+          "bbox": {
+            "x1": 123.19,
+            "y1": 73.67,
+            "x2": 260.67,
+            "y2": 239.83
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "00:59",
+      "frame": 1785,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7127,
+          "priority": false,
+          "bbox": {
+            "x1": 151.07,
+            "y1": 63.4,
+            "x2": 255.39,
+            "y2": 239.79
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7101,
+          "priority": false,
+          "bbox": {
+            "x1": 86.9,
+            "y1": 53.19,
+            "x2": 194.66,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00",
+      "frame": 1800,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9033,
+          "priority": false,
+          "bbox": {
+            "x1": 132.77,
+            "y1": 66.78,
+            "x2": 226.83,
+            "y2": 239.6
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.8624,
+          "priority": false,
+          "bbox": {
+            "x1": 90.54,
+            "y1": 55.13,
+            "x2": 174.42,
+            "y2": 236.01
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:00",
+      "frame": 1815,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.87,
+          "priority": false,
+          "bbox": {
+            "x1": 119.73,
+            "y1": 49.53,
+            "x2": 213.44,
+            "y2": 239.87
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:01",
+      "frame": 1830,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7536,
+          "priority": false,
+          "bbox": {
+            "x1": 125.26,
+            "y1": 81.68,
+            "x2": 219.19,
+            "y2": 239.85
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:01",
+      "frame": 1845,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8569,
+          "priority": false,
+          "bbox": {
+            "x1": 125.04,
+            "y1": 65.87,
+            "x2": 223.83,
+            "y2": 239.58
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.7294,
+          "priority": false,
+          "bbox": {
+            "x1": 110.51,
+            "y1": 42.63,
+            "x2": 170.15,
+            "y2": 195.95
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:02",
+      "frame": 1860,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8955,
+          "priority": false,
+          "bbox": {
+            "x1": 113.16,
+            "y1": 58.02,
+            "x2": 197.51,
+            "y2": 239.61
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:02",
+      "frame": 1875,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8747,
+          "priority": false,
+          "bbox": {
+            "x1": 76.85,
+            "y1": 56.1,
+            "x2": 171.64,
+            "y2": 239.68
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:03",
+      "frame": 1890,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.5895,
+          "priority": false,
+          "bbox": {
+            "x1": 69.12,
+            "y1": 41.01,
+            "x2": 153.55,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:03",
+      "frame": 1905,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.7675,
+          "priority": false,
+          "bbox": {
+            "x1": 79.08,
+            "y1": 73.64,
+            "x2": 145.16,
+            "y2": 239.7
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:04",
+      "frame": 1920,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9002,
+          "priority": false,
+          "bbox": {
+            "x1": 86.24,
+            "y1": 69.31,
+            "x2": 151.91,
+            "y2": 239.66
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.6068,
+          "priority": false,
+          "bbox": {
+            "x1": 75.27,
+            "y1": 28.28,
+            "x2": 123.63,
+            "y2": 175.1
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:04",
+      "frame": 1935,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9273,
+          "priority": false,
+          "bbox": {
+            "x1": 77.67,
+            "y1": 56.32,
+            "x2": 159.34,
+            "y2": 239.99
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:05",
+      "frame": 1950,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9185,
+          "priority": false,
+          "bbox": {
+            "x1": 85.29,
+            "y1": 46.25,
+            "x2": 163.72,
+            "y2": 239.8
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.641,
+          "priority": false,
+          "bbox": {
+            "x1": 84.83,
+            "y1": 28.66,
+            "x2": 126.71,
+            "y2": 98.29
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:05",
+      "frame": 1965,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.838,
+          "priority": false,
+          "bbox": {
+            "x1": 85.86,
+            "y1": 63.58,
+            "x2": 219.94,
+            "y2": 239.6
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5542,
+          "priority": false,
+          "bbox": {
+            "x1": 85.18,
+            "y1": 50.6,
+            "x2": 138.04,
+            "y2": 126.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:06",
+      "frame": 1980,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8444,
+          "priority": false,
+          "bbox": {
+            "x1": 118.8,
+            "y1": 72.27,
+            "x2": 233.44,
+            "y2": 239.85
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:06",
+      "frame": 1995,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.643,
+          "priority": false,
+          "bbox": {
+            "x1": 77.71,
+            "y1": 73.36,
+            "x2": 171.29,
+            "y2": 239.63
+          }
+        },
+        {
+          "class": "person",
+          "confidence": 0.5052,
+          "priority": false,
+          "bbox": {
+            "x1": 168.72,
+            "y1": 101.2,
+            "x2": 261.25,
+            "y2": 239.9
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:07",
+      "frame": 2010,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8914,
+          "priority": false,
+          "bbox": {
+            "x1": 62.41,
+            "y1": 71.7,
+            "x2": 166.53,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:07",
+      "frame": 2025,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.658,
+          "priority": false,
+          "bbox": {
+            "x1": 68.9,
+            "y1": 96.34,
+            "x2": 204.16,
+            "y2": 239.59
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08",
+      "frame": 2040,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.898,
+          "priority": false,
+          "bbox": {
+            "x1": 48.56,
+            "y1": 59.73,
+            "x2": 145.14,
+            "y2": 239.67
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:08",
+      "frame": 2055,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.925,
+          "priority": false,
+          "bbox": {
+            "x1": 54.09,
+            "y1": 57.31,
+            "x2": 140.75,
+            "y2": 239.74
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:09",
+      "frame": 2070,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8942,
+          "priority": false,
+          "bbox": {
+            "x1": 47.68,
+            "y1": 52.26,
+            "x2": 126.45,
+            "y2": 239.96
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:09",
+      "frame": 2085,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.9057,
+          "priority": false,
+          "bbox": {
+            "x1": 50.9,
+            "y1": 48.63,
+            "x2": 134.1,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10",
+      "frame": 2100,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8477,
+          "priority": false,
+          "bbox": {
+            "x1": 47.37,
+            "y1": 49.39,
+            "x2": 140.79,
+            "y2": 239.73
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:10",
+      "frame": 2115,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8974,
+          "priority": false,
+          "bbox": {
+            "x1": 70.77,
+            "y1": 56.69,
+            "x2": 148.46,
+            "y2": 239.99
+          }
+        }
+      ]
+    },
+    {
+      "timestamp": "01:11",
+      "frame": 2130,
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class": "person",
+          "confidence": 0.8314,
+          "priority": false,
+          "bbox": {
+            "x1": 161.62,
+            "y1": 93.22,
+            "x2": 253.93,
+            "y2": 239.79
+          }
+        }
+      ]
+    }
+  ]
+}

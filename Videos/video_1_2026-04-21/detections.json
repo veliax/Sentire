@@ -1,0 +1,4422 @@
+{
+  "video_id": 1,
+  "total_frames": 2411,
+  "frames_processed": 160,
+  "processed_video": "Videos/video_1_2026-04-21/processed_final.mp4",
+  "detections_path": "Videos/video_1_2026-04-21/detections.json",
+  "llm_input_path": "Videos/video_1_2026-04-21/llm_input.json",
+  "detections": [
+    {
+      "frame": 120,
+      "timestamp": "00:04",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5925,
+          "priority": false,
+          "bounding_box": {
+            "x1": 154.12,
+            "y1": 20.66,
+            "x2": 203.85,
+            "y2": 135.42
+          }
+        }
+      ]
+    },
+    {
+      "frame": 135,
+      "timestamp": "00:04",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6422,
+          "priority": false,
+          "bounding_box": {
+            "x1": 156.59,
+            "y1": 28.75,
+            "x2": 194.54,
+            "y2": 136.48
+          }
+        }
+      ]
+    },
+    {
+      "frame": 150,
+      "timestamp": "00:05",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.608,
+          "priority": false,
+          "bounding_box": {
+            "x1": 153.61,
+            "y1": 26.4,
+            "x2": 194.87,
+            "y2": 135.06
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5142,
+          "priority": false,
+          "bounding_box": {
+            "x1": 217.05,
+            "y1": 90.52,
+            "x2": 306.5,
+            "y2": 217.63
+          }
+        }
+      ]
+    },
+    {
+      "frame": 165,
+      "timestamp": "00:05",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6301,
+          "priority": false,
+          "bounding_box": {
+            "x1": 174.88,
+            "y1": 64.95,
+            "x2": 235.36,
+            "y2": 220.44
+          }
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "timestamp": "00:06",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6948,
+          "priority": false,
+          "bounding_box": {
+            "x1": 160.56,
+            "y1": 50.78,
+            "x2": 203.1,
+            "y2": 144.89
+          }
+        }
+      ]
+    },
+    {
+      "frame": 195,
+      "timestamp": "00:06",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.768,
+          "priority": false,
+          "bounding_box": {
+            "x1": 152.33,
+            "y1": 43.59,
+            "x2": 194.87,
+            "y2": 158.67
+          }
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "timestamp": "00:07",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7089,
+          "priority": false,
+          "bounding_box": {
+            "x1": 159.98,
+            "y1": 29.5,
+            "x2": 196.42,
+            "y2": 151.44
+          }
+        }
+      ]
+    },
+    {
+      "frame": 225,
+      "timestamp": "00:07",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6649,
+          "priority": false,
+          "bounding_box": {
+            "x1": 158.84,
+            "y1": 37.96,
+            "x2": 197.33,
+            "y2": 153.71
+          }
+        }
+      ]
+    },
+    {
+      "frame": 240,
+      "timestamp": "00:08",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8307,
+          "priority": false,
+          "bounding_box": {
+            "x1": 162.83,
+            "y1": 39.14,
+            "x2": 196.53,
+            "y2": 156.84
+          }
+        }
+      ]
+    },
+    {
+      "frame": 255,
+      "timestamp": "00:08",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7781,
+          "priority": false,
+          "bounding_box": {
+            "x1": 174.26,
+            "y1": 39.62,
+            "x2": 202.39,
+            "y2": 155.65
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6828,
+          "priority": false,
+          "bounding_box": {
+            "x1": 159.81,
+            "y1": 28.98,
+            "x2": 185.91,
+            "y2": 126.7
+          }
+        }
+      ]
+    },
+    {
+      "frame": 270,
+      "timestamp": "00:09",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8098,
+          "priority": false,
+          "bounding_box": {
+            "x1": 181.93,
+            "y1": 41.95,
+            "x2": 212.85,
+            "y2": 155.38
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5605,
+          "priority": false,
+          "bounding_box": {
+            "x1": 158.23,
+            "y1": 30.71,
+            "x2": 187.04,
+            "y2": 128.78
+          }
+        }
+      ]
+    },
+    {
+      "frame": 285,
+      "timestamp": "00:09",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7623,
+          "priority": false,
+          "bounding_box": {
+            "x1": 172.37,
+            "y1": 49.3,
+            "x2": 214.44,
+            "y2": 153.88
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6869,
+          "priority": false,
+          "bounding_box": {
+            "x1": 160.9,
+            "y1": 37.9,
+            "x2": 194.36,
+            "y2": 142.27
+          }
+        }
+      ]
+    },
+    {
+      "frame": 300,
+      "timestamp": "00:10",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8582,
+          "priority": false,
+          "bounding_box": {
+            "x1": 146.55,
+            "y1": 48.83,
+            "x2": 203.1,
+            "y2": 216.17
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5323,
+          "priority": false,
+          "bounding_box": {
+            "x1": 186.49,
+            "y1": 46.04,
+            "x2": 226.1,
+            "y2": 165.28
+          }
+        }
+      ]
+    },
+    {
+      "frame": 315,
+      "timestamp": "00:10",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8847,
+          "priority": false,
+          "bounding_box": {
+            "x1": 154.66,
+            "y1": 69.45,
+            "x2": 215.7,
+            "y2": 214.46
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5767,
+          "priority": false,
+          "bounding_box": {
+            "x1": 164.19,
+            "y1": 54.35,
+            "x2": 226.41,
+            "y2": 141.96
+          }
+        }
+      ]
+    },
+    {
+      "frame": 330,
+      "timestamp": "00:11",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8723,
+          "priority": false,
+          "bounding_box": {
+            "x1": 186.71,
+            "y1": 93.49,
+            "x2": 276.69,
+            "y2": 222.19
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8133,
+          "priority": false,
+          "bounding_box": {
+            "x1": 155.57,
+            "y1": 56.05,
+            "x2": 210.99,
+            "y2": 212.54
+          }
+        }
+      ]
+    },
+    {
+      "frame": 345,
+      "timestamp": "00:11",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8669,
+          "priority": false,
+          "bounding_box": {
+            "x1": 240.57,
+            "y1": 121.73,
+            "x2": 318.98,
+            "y2": 237.44
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8564,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.53,
+            "y1": 66.54,
+            "x2": 198.01,
+            "y2": 216.92
+          }
+        }
+      ]
+    },
+    {
+      "frame": 360,
+      "timestamp": "00:12",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.769,
+          "priority": false,
+          "bounding_box": {
+            "x1": 131.09,
+            "y1": 80.97,
+            "x2": 201.37,
+            "y2": 217.53
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7197,
+          "priority": false,
+          "bounding_box": {
+            "x1": 174.64,
+            "y1": 52.29,
+            "x2": 225.54,
+            "y2": 142.28
+          }
+        }
+      ]
+    },
+    {
+      "frame": 405,
+      "timestamp": "00:13",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6663,
+          "priority": false,
+          "bounding_box": {
+            "x1": 158.46,
+            "y1": 59.85,
+            "x2": 199.06,
+            "y2": 139.61
+          }
+        }
+      ]
+    },
+    {
+      "frame": 435,
+      "timestamp": "00:14",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.732,
+          "priority": false,
+          "bounding_box": {
+            "x1": 158.96,
+            "y1": 59.66,
+            "x2": 200.71,
+            "y2": 146.7
+          }
+        }
+      ]
+    },
+    {
+      "frame": 450,
+      "timestamp": "00:15",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7626,
+          "priority": false,
+          "bounding_box": {
+            "x1": 147.45,
+            "y1": 63.22,
+            "x2": 190.73,
+            "y2": 138.29
+          }
+        }
+      ]
+    },
+    {
+      "frame": 465,
+      "timestamp": "00:15",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7809,
+          "priority": false,
+          "bounding_box": {
+            "x1": 115.22,
+            "y1": 74.45,
+            "x2": 196.96,
+            "y2": 214.38
+          }
+        }
+      ]
+    },
+    {
+      "frame": 480,
+      "timestamp": "00:16",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8312,
+          "priority": false,
+          "bounding_box": {
+            "x1": 107.37,
+            "y1": 80.78,
+            "x2": 179.51,
+            "y2": 216.86
+          }
+        }
+      ]
+    },
+    {
+      "frame": 495,
+      "timestamp": "00:16",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7576,
+          "priority": false,
+          "bounding_box": {
+            "x1": 128.27,
+            "y1": 87.87,
+            "x2": 186.11,
+            "y2": 218.0
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5105,
+          "priority": false,
+          "bounding_box": {
+            "x1": 104.99,
+            "y1": 67.76,
+            "x2": 148.04,
+            "y2": 151.45
+          }
+        }
+      ]
+    },
+    {
+      "frame": 510,
+      "timestamp": "00:17",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8222,
+          "priority": false,
+          "bounding_box": {
+            "x1": 131.89,
+            "y1": 86.48,
+            "x2": 199.05,
+            "y2": 215.97
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6332,
+          "priority": false,
+          "bounding_box": {
+            "x1": 106.24,
+            "y1": 65.6,
+            "x2": 149.73,
+            "y2": 149.97
+          }
+        }
+      ]
+    },
+    {
+      "frame": 525,
+      "timestamp": "00:17",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8314,
+          "priority": false,
+          "bounding_box": {
+            "x1": 130.86,
+            "y1": 84.36,
+            "x2": 198.58,
+            "y2": 214.55
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6342,
+          "priority": false,
+          "bounding_box": {
+            "x1": 106.19,
+            "y1": 63.31,
+            "x2": 150.43,
+            "y2": 149.61
+          }
+        }
+      ]
+    },
+    {
+      "frame": 540,
+      "timestamp": "00:18",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8133,
+          "priority": false,
+          "bounding_box": {
+            "x1": 120.8,
+            "y1": 71.52,
+            "x2": 175.01,
+            "y2": 210.73
+          }
+        }
+      ]
+    },
+    {
+      "frame": 555,
+      "timestamp": "00:18",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6772,
+          "priority": false,
+          "bounding_box": {
+            "x1": 103.96,
+            "y1": 91.46,
+            "x2": 190.4,
+            "y2": 216.51
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6544,
+          "priority": false,
+          "bounding_box": {
+            "x1": 148.36,
+            "y1": 64.53,
+            "x2": 191.74,
+            "y2": 148.8
+          }
+        }
+      ]
+    },
+    {
+      "frame": 570,
+      "timestamp": "00:19",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7413,
+          "priority": false,
+          "bounding_box": {
+            "x1": 26.8,
+            "y1": 139.04,
+            "x2": 107.83,
+            "y2": 239.09
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6857,
+          "priority": false,
+          "bounding_box": {
+            "x1": 106.89,
+            "y1": 119.03,
+            "x2": 206.87,
+            "y2": 217.79
+          }
+        }
+      ]
+    },
+    {
+      "frame": 585,
+      "timestamp": "00:19",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8923,
+          "priority": false,
+          "bounding_box": {
+            "x1": 199.22,
+            "y1": 76.88,
+            "x2": 255.58,
+            "y2": 222.18
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7684,
+          "priority": false,
+          "bounding_box": {
+            "x1": 99.62,
+            "y1": 118.67,
+            "x2": 198.76,
+            "y2": 216.26
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7177,
+          "priority": false,
+          "bounding_box": {
+            "x1": 11.91,
+            "y1": 112.94,
+            "x2": 102.31,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "frame": 600,
+      "timestamp": "00:20",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9033,
+          "priority": false,
+          "bounding_box": {
+            "x1": 206.88,
+            "y1": 85.31,
+            "x2": 266.68,
+            "y2": 222.3
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9023,
+          "priority": false,
+          "bounding_box": {
+            "x1": 17.04,
+            "y1": 107.05,
+            "x2": 98.37,
+            "y2": 239.49
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8086,
+          "priority": false,
+          "bounding_box": {
+            "x1": 101.03,
+            "y1": 118.97,
+            "x2": 199.09,
+            "y2": 216.26
+          }
+        }
+      ]
+    },
+    {
+      "frame": 615,
+      "timestamp": "00:20",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8362,
+          "priority": false,
+          "bounding_box": {
+            "x1": 14.69,
+            "y1": 106.14,
+            "x2": 99.22,
+            "y2": 239.39
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.806,
+          "priority": false,
+          "bounding_box": {
+            "x1": 221.54,
+            "y1": 95.41,
+            "x2": 290.01,
+            "y2": 235.94
+          }
+        }
+      ]
+    },
+    {
+      "frame": 630,
+      "timestamp": "00:21",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.87,
+          "priority": false,
+          "bounding_box": {
+            "x1": 14.92,
+            "y1": 105.63,
+            "x2": 98.09,
+            "y2": 239.02
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7291,
+          "priority": false,
+          "bounding_box": {
+            "x1": 206.61,
+            "y1": 96.82,
+            "x2": 272.99,
+            "y2": 224.16
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5476,
+          "priority": false,
+          "bounding_box": {
+            "x1": 100.17,
+            "y1": 119.67,
+            "x2": 199.34,
+            "y2": 215.19
+          }
+        }
+      ]
+    },
+    {
+      "frame": 645,
+      "timestamp": "00:21",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8586,
+          "priority": false,
+          "bounding_box": {
+            "x1": 16.2,
+            "y1": 105.18,
+            "x2": 98.34,
+            "y2": 239.7
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8503,
+          "priority": false,
+          "bounding_box": {
+            "x1": 207.15,
+            "y1": 99.67,
+            "x2": 266.94,
+            "y2": 222.45
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5292,
+          "priority": false,
+          "bounding_box": {
+            "x1": 102.32,
+            "y1": 120.21,
+            "x2": 199.43,
+            "y2": 216.02
+          }
+        }
+      ]
+    },
+    {
+      "frame": 660,
+      "timestamp": "00:22",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9042,
+          "priority": false,
+          "bounding_box": {
+            "x1": 16.78,
+            "y1": 105.29,
+            "x2": 97.14,
+            "y2": 239.44
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8034,
+          "priority": false,
+          "bounding_box": {
+            "x1": 209.52,
+            "y1": 101.16,
+            "x2": 273.41,
+            "y2": 221.61
+          }
+        }
+      ]
+    },
+    {
+      "frame": 675,
+      "timestamp": "00:22",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8718,
+          "priority": false,
+          "bounding_box": {
+            "x1": 15.77,
+            "y1": 105.77,
+            "x2": 100.54,
+            "y2": 239.54
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.861,
+          "priority": false,
+          "bounding_box": {
+            "x1": 212.1,
+            "y1": 101.04,
+            "x2": 271.06,
+            "y2": 221.75
+          }
+        }
+      ]
+    },
+    {
+      "frame": 690,
+      "timestamp": "00:23",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8013,
+          "priority": false,
+          "bounding_box": {
+            "x1": 211.86,
+            "y1": 100.87,
+            "x2": 272.51,
+            "y2": 221.52
+          }
+        }
+      ]
+    },
+    {
+      "frame": 705,
+      "timestamp": "00:23",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8849,
+          "priority": false,
+          "bounding_box": {
+            "x1": 8.0,
+            "y1": 84.68,
+            "x2": 72.76,
+            "y2": 239.59
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8154,
+          "priority": false,
+          "bounding_box": {
+            "x1": 211.03,
+            "y1": 101.41,
+            "x2": 271.55,
+            "y2": 227.82
+          }
+        }
+      ]
+    },
+    {
+      "frame": 720,
+      "timestamp": "00:24",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8872,
+          "priority": false,
+          "bounding_box": {
+            "x1": 21.42,
+            "y1": 85.42,
+            "x2": 70.57,
+            "y2": 239.82
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8253,
+          "priority": false,
+          "bounding_box": {
+            "x1": 211.37,
+            "y1": 101.34,
+            "x2": 271.96,
+            "y2": 227.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 735,
+      "timestamp": "00:24",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8537,
+          "priority": false,
+          "bounding_box": {
+            "x1": 14.87,
+            "y1": 87.25,
+            "x2": 66.44,
+            "y2": 233.31
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8315,
+          "priority": false,
+          "bounding_box": {
+            "x1": 211.17,
+            "y1": 101.41,
+            "x2": 271.68,
+            "y2": 227.3
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.653,
+          "priority": false,
+          "bounding_box": {
+            "x1": 106.13,
+            "y1": 87.45,
+            "x2": 182.12,
+            "y2": 216.43
+          }
+        }
+      ]
+    },
+    {
+      "frame": 750,
+      "timestamp": "00:25",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.922,
+          "priority": false,
+          "bounding_box": {
+            "x1": 8.91,
+            "y1": 85.2,
+            "x2": 97.42,
+            "y2": 239.61
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8443,
+          "priority": false,
+          "bounding_box": {
+            "x1": 210.84,
+            "y1": 101.56,
+            "x2": 272.68,
+            "y2": 227.09
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7379,
+          "priority": false,
+          "bounding_box": {
+            "x1": 119.47,
+            "y1": 94.38,
+            "x2": 199.31,
+            "y2": 217.78
+          }
+        }
+      ]
+    },
+    {
+      "frame": 765,
+      "timestamp": "00:25",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9289,
+          "priority": false,
+          "bounding_box": {
+            "x1": 16.77,
+            "y1": 91.72,
+            "x2": 121.39,
+            "y2": 239.99
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7354,
+          "priority": false,
+          "bounding_box": {
+            "x1": 205.62,
+            "y1": 101.02,
+            "x2": 290.31,
+            "y2": 231.37
+          }
+        }
+      ]
+    },
+    {
+      "frame": 780,
+      "timestamp": "00:26",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9282,
+          "priority": false,
+          "bounding_box": {
+            "x1": 18.99,
+            "y1": 92.15,
+            "x2": 121.55,
+            "y2": 239.59
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6038,
+          "priority": false,
+          "bounding_box": {
+            "x1": 212.45,
+            "y1": 106.92,
+            "x2": 290.99,
+            "y2": 220.43
+          }
+        }
+      ]
+    },
+    {
+      "frame": 795,
+      "timestamp": "00:26",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9247,
+          "priority": false,
+          "bounding_box": {
+            "x1": 19.06,
+            "y1": 91.55,
+            "x2": 120.93,
+            "y2": 239.61
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.808,
+          "priority": false,
+          "bounding_box": {
+            "x1": 212.75,
+            "y1": 107.13,
+            "x2": 282.07,
+            "y2": 218.81
+          }
+        }
+      ]
+    },
+    {
+      "frame": 810,
+      "timestamp": "00:27",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8422,
+          "priority": false,
+          "bounding_box": {
+            "x1": 214.45,
+            "y1": 99.96,
+            "x2": 268.55,
+            "y2": 227.11
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8344,
+          "priority": false,
+          "bounding_box": {
+            "x1": 17.66,
+            "y1": 88.86,
+            "x2": 84.01,
+            "y2": 239.62
+          }
+        }
+      ]
+    },
+    {
+      "frame": 825,
+      "timestamp": "00:27",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.868,
+          "priority": false,
+          "bounding_box": {
+            "x1": 207.46,
+            "y1": 98.16,
+            "x2": 260.13,
+            "y2": 222.41
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8163,
+          "priority": false,
+          "bounding_box": {
+            "x1": 10.6,
+            "y1": 92.67,
+            "x2": 60.04,
+            "y2": 239.56
+          }
+        }
+      ]
+    },
+    {
+      "frame": 840,
+      "timestamp": "00:28",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8228,
+          "priority": false,
+          "bounding_box": {
+            "x1": 208.48,
+            "y1": 107.19,
+            "x2": 264.65,
+            "y2": 221.07
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7822,
+          "priority": false,
+          "bounding_box": {
+            "x1": 8.49,
+            "y1": 91.33,
+            "x2": 54.84,
+            "y2": 239.65
+          }
+        }
+      ]
+    },
+    {
+      "frame": 855,
+      "timestamp": "00:28",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8819,
+          "priority": false,
+          "bounding_box": {
+            "x1": 6.51,
+            "y1": 98.15,
+            "x2": 69.33,
+            "y2": 239.51
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8508,
+          "priority": false,
+          "bounding_box": {
+            "x1": 208.16,
+            "y1": 107.05,
+            "x2": 264.85,
+            "y2": 219.79
+          }
+        }
+      ]
+    },
+    {
+      "frame": 870,
+      "timestamp": "00:29",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8232,
+          "priority": false,
+          "bounding_box": {
+            "x1": 209.88,
+            "y1": 107.85,
+            "x2": 266.1,
+            "y2": 224.41
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.724,
+          "priority": false,
+          "bounding_box": {
+            "x1": 3.4,
+            "y1": 115.31,
+            "x2": 91.51,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "frame": 885,
+      "timestamp": "00:29",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8218,
+          "priority": false,
+          "bounding_box": {
+            "x1": 209.6,
+            "y1": 108.4,
+            "x2": 266.44,
+            "y2": 225.35
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6819,
+          "priority": false,
+          "bounding_box": {
+            "x1": 124.4,
+            "y1": 121.39,
+            "x2": 219.29,
+            "y2": 222.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 900,
+      "timestamp": "00:30",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.756,
+          "priority": false,
+          "bounding_box": {
+            "x1": 208.89,
+            "y1": 108.13,
+            "x2": 264.82,
+            "y2": 222.27
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7078,
+          "priority": false,
+          "bounding_box": {
+            "x1": 123.98,
+            "y1": 121.94,
+            "x2": 219.61,
+            "y2": 222.3
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5203,
+          "priority": false,
+          "bounding_box": {
+            "x1": 5.55,
+            "y1": 120.73,
+            "x2": 97.41,
+            "y2": 238.96
+          }
+        }
+      ]
+    },
+    {
+      "frame": 915,
+      "timestamp": "00:30",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7107,
+          "priority": false,
+          "bounding_box": {
+            "x1": 204.11,
+            "y1": 107.72,
+            "x2": 265.28,
+            "y2": 226.29
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7015,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.74,
+            "y1": 113.84,
+            "x2": 96.1,
+            "y2": 239.4
+          }
+        }
+      ]
+    },
+    {
+      "frame": 930,
+      "timestamp": "00:31",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7358,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.3,
+            "y1": 113.08,
+            "x2": 90.42,
+            "y2": 239.65
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6901,
+          "priority": false,
+          "bounding_box": {
+            "x1": 204.08,
+            "y1": 107.79,
+            "x2": 265.51,
+            "y2": 225.26
+          }
+        }
+      ]
+    },
+    {
+      "frame": 945,
+      "timestamp": "00:31",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7378,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.09,
+            "y1": 116.18,
+            "x2": 91.56,
+            "y2": 239.73
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.708,
+          "priority": false,
+          "bounding_box": {
+            "x1": 207.51,
+            "y1": 107.76,
+            "x2": 265.36,
+            "y2": 228.39
+          }
+        }
+      ]
+    },
+    {
+      "frame": 960,
+      "timestamp": "00:32",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7711,
+          "priority": false,
+          "bounding_box": {
+            "x1": 208.81,
+            "y1": 108.22,
+            "x2": 265.14,
+            "y2": 225.98
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.689,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.57,
+            "y1": 115.8,
+            "x2": 100.02,
+            "y2": 239.75
+          }
+        }
+      ]
+    },
+    {
+      "frame": 975,
+      "timestamp": "00:32",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6908,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.79,
+            "y1": 115.77,
+            "x2": 99.98,
+            "y2": 239.72
+          }
+        }
+      ]
+    },
+    {
+      "frame": 990,
+      "timestamp": "00:33",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7713,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.9,
+            "y1": 115.91,
+            "x2": 87.82,
+            "y2": 239.16
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.679,
+          "priority": false,
+          "bounding_box": {
+            "x1": 205.7,
+            "y1": 108.97,
+            "x2": 265.86,
+            "y2": 224.05
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6519,
+          "priority": false,
+          "bounding_box": {
+            "x1": 114.66,
+            "y1": 123.03,
+            "x2": 220.01,
+            "y2": 223.57
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1005,
+      "timestamp": "00:33",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7966,
+          "priority": false,
+          "bounding_box": {
+            "x1": 203.58,
+            "y1": 112.55,
+            "x2": 269.26,
+            "y2": 224.99
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6548,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.37,
+            "y1": 115.97,
+            "x2": 86.76,
+            "y2": 239.6
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1020,
+      "timestamp": "00:34",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7913,
+          "priority": false,
+          "bounding_box": {
+            "x1": 203.61,
+            "y1": 104.81,
+            "x2": 270.46,
+            "y2": 222.27
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6292,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.69,
+            "y1": 115.46,
+            "x2": 86.35,
+            "y2": 239.83
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.626,
+          "priority": false,
+          "bounding_box": {
+            "x1": 125.66,
+            "y1": 121.78,
+            "x2": 221.12,
+            "y2": 218.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1035,
+      "timestamp": "00:34",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8184,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.64,
+            "y1": 112.32,
+            "x2": 83.53,
+            "y2": 239.37
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7838,
+          "priority": false,
+          "bounding_box": {
+            "x1": 202.92,
+            "y1": 103.76,
+            "x2": 280.56,
+            "y2": 222.11
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.522,
+          "priority": false,
+          "bounding_box": {
+            "x1": 126.25,
+            "y1": 122.25,
+            "x2": 219.16,
+            "y2": 218.3
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1050,
+      "timestamp": "00:35",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8235,
+          "priority": false,
+          "bounding_box": {
+            "x1": 225.34,
+            "y1": 111.1,
+            "x2": 301.83,
+            "y2": 220.92
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5088,
+          "priority": false,
+          "bounding_box": {
+            "x1": 14.47,
+            "y1": 110.17,
+            "x2": 102.09,
+            "y2": 239.57
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1065,
+      "timestamp": "00:35",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7948,
+          "priority": false,
+          "bounding_box": {
+            "x1": 224.96,
+            "y1": 114.18,
+            "x2": 303.45,
+            "y2": 231.34
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5731,
+          "priority": false,
+          "bounding_box": {
+            "x1": 6.38,
+            "y1": 108.04,
+            "x2": 91.39,
+            "y2": 240.0
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1080,
+      "timestamp": "00:36",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5662,
+          "priority": false,
+          "bounding_box": {
+            "x1": 256.8,
+            "y1": 122.75,
+            "x2": 318.79,
+            "y2": 239.08
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5521,
+          "priority": false,
+          "bounding_box": {
+            "x1": 15.81,
+            "y1": 142.59,
+            "x2": 103.11,
+            "y2": 239.82
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1095,
+      "timestamp": "00:36",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7971,
+          "priority": false,
+          "bounding_box": {
+            "x1": 26.05,
+            "y1": 135.38,
+            "x2": 92.06,
+            "y2": 239.74
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1110,
+      "timestamp": "00:37",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7446,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.26,
+            "y1": 69.47,
+            "x2": 199.47,
+            "y2": 225.0
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1125,
+      "timestamp": "00:37",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8485,
+          "priority": false,
+          "bounding_box": {
+            "x1": 146.07,
+            "y1": 74.8,
+            "x2": 208.33,
+            "y2": 228.77
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5878,
+          "priority": false,
+          "bounding_box": {
+            "x1": 7.41,
+            "y1": 154.85,
+            "x2": 78.07,
+            "y2": 239.76
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1140,
+      "timestamp": "00:38",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8343,
+          "priority": false,
+          "bounding_box": {
+            "x1": 147.58,
+            "y1": 74.6,
+            "x2": 207.21,
+            "y2": 228.65
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1155,
+      "timestamp": "00:38",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8548,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.0,
+            "y1": 78.23,
+            "x2": 199.66,
+            "y2": 216.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1170,
+      "timestamp": "00:39",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8459,
+          "priority": false,
+          "bounding_box": {
+            "x1": 136.2,
+            "y1": 78.22,
+            "x2": 199.32,
+            "y2": 215.49
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5964,
+          "priority": false,
+          "bounding_box": {
+            "x1": 12.34,
+            "y1": 147.46,
+            "x2": 85.9,
+            "y2": 237.72
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1185,
+      "timestamp": "00:39",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8144,
+          "priority": false,
+          "bounding_box": {
+            "x1": 134.52,
+            "y1": 81.01,
+            "x2": 188.65,
+            "y2": 214.77
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7884,
+          "priority": false,
+          "bounding_box": {
+            "x1": 11.5,
+            "y1": 151.08,
+            "x2": 76.41,
+            "y2": 239.59
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1200,
+      "timestamp": "00:40",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8621,
+          "priority": false,
+          "bounding_box": {
+            "x1": 134.84,
+            "y1": 80.58,
+            "x2": 199.41,
+            "y2": 215.73
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7509,
+          "priority": false,
+          "bounding_box": {
+            "x1": 10.62,
+            "y1": 153.47,
+            "x2": 72.02,
+            "y2": 239.67
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1215,
+      "timestamp": "00:40",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8158,
+          "priority": false,
+          "bounding_box": {
+            "x1": 133.44,
+            "y1": 79.64,
+            "x2": 199.26,
+            "y2": 216.3
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1230,
+      "timestamp": "00:41",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8578,
+          "priority": false,
+          "bounding_box": {
+            "x1": 134.56,
+            "y1": 80.92,
+            "x2": 199.07,
+            "y2": 215.73
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1245,
+      "timestamp": "00:41",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8745,
+          "priority": false,
+          "bounding_box": {
+            "x1": 135.59,
+            "y1": 81.77,
+            "x2": 199.41,
+            "y2": 216.43
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1260,
+      "timestamp": "00:42",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8747,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.02,
+            "y1": 82.43,
+            "x2": 199.06,
+            "y2": 214.57
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1275,
+      "timestamp": "00:42",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8623,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.22,
+            "y1": 82.63,
+            "x2": 199.26,
+            "y2": 214.45
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1290,
+      "timestamp": "00:43",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8669,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.6,
+            "y1": 82.44,
+            "x2": 199.18,
+            "y2": 214.02
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1305,
+      "timestamp": "00:43",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8605,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.69,
+            "y1": 82.52,
+            "x2": 199.14,
+            "y2": 214.66
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1320,
+      "timestamp": "00:44",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8735,
+          "priority": false,
+          "bounding_box": {
+            "x1": 137.63,
+            "y1": 82.3,
+            "x2": 199.03,
+            "y2": 214.48
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7664,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.14,
+            "y1": 137.47,
+            "x2": 79.31,
+            "y2": 239.81
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1335,
+      "timestamp": "00:44",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8523,
+          "priority": false,
+          "bounding_box": {
+            "x1": 132.38,
+            "y1": 84.76,
+            "x2": 199.34,
+            "y2": 214.76
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6645,
+          "priority": false,
+          "bounding_box": {
+            "x1": 22.85,
+            "y1": 137.51,
+            "x2": 80.13,
+            "y2": 239.63
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1350,
+      "timestamp": "00:45",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8622,
+          "priority": false,
+          "bounding_box": {
+            "x1": 267.99,
+            "y1": 119.21,
+            "x2": 318.86,
+            "y2": 238.14
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8407,
+          "priority": false,
+          "bounding_box": {
+            "x1": 127.67,
+            "y1": 92.74,
+            "x2": 203.23,
+            "y2": 215.27
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5499,
+          "priority": false,
+          "bounding_box": {
+            "x1": 22.57,
+            "y1": 137.16,
+            "x2": 80.36,
+            "y2": 239.63
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1365,
+      "timestamp": "00:45",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8246,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.55,
+            "y1": 88.87,
+            "x2": 200.44,
+            "y2": 217.14
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.802,
+          "priority": false,
+          "bounding_box": {
+            "x1": 252.26,
+            "y1": 104.06,
+            "x2": 306.6,
+            "y2": 221.61
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6277,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.86,
+            "y1": 137.48,
+            "x2": 80.54,
+            "y2": 239.68
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1380,
+      "timestamp": "00:46",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8556,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.58,
+            "y1": 87.98,
+            "x2": 199.65,
+            "y2": 215.31
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8213,
+          "priority": false,
+          "bounding_box": {
+            "x1": 214.11,
+            "y1": 105.66,
+            "x2": 266.72,
+            "y2": 224.81
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5275,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.46,
+            "y1": 137.31,
+            "x2": 81.81,
+            "y2": 239.66
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1395,
+      "timestamp": "00:46",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8255,
+          "priority": false,
+          "bounding_box": {
+            "x1": 128.25,
+            "y1": 86.62,
+            "x2": 199.1,
+            "y2": 214.25
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6483,
+          "priority": false,
+          "bounding_box": {
+            "x1": 194.74,
+            "y1": 97.23,
+            "x2": 246.55,
+            "y2": 230.28
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6135,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.73,
+            "y1": 137.74,
+            "x2": 81.14,
+            "y2": 239.64
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1410,
+      "timestamp": "00:47",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8401,
+          "priority": false,
+          "bounding_box": {
+            "x1": 130.12,
+            "y1": 85.7,
+            "x2": 193.68,
+            "y2": 214.03
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7273,
+          "priority": false,
+          "bounding_box": {
+            "x1": 169.7,
+            "y1": 104.99,
+            "x2": 242.78,
+            "y2": 227.83
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5456,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.74,
+            "y1": 137.56,
+            "x2": 83.55,
+            "y2": 239.7
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1425,
+      "timestamp": "00:47",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8177,
+          "priority": false,
+          "bounding_box": {
+            "x1": 128.64,
+            "y1": 84.47,
+            "x2": 193.61,
+            "y2": 213.06
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6434,
+          "priority": false,
+          "bounding_box": {
+            "x1": 162.69,
+            "y1": 112.4,
+            "x2": 243.79,
+            "y2": 224.7
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1440,
+      "timestamp": "00:48",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8441,
+          "priority": false,
+          "bounding_box": {
+            "x1": 130.43,
+            "y1": 84.75,
+            "x2": 194.52,
+            "y2": 213.05
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7824,
+          "priority": false,
+          "bounding_box": {
+            "x1": 163.83,
+            "y1": 112.15,
+            "x2": 247.81,
+            "y2": 220.65
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5447,
+          "priority": false,
+          "bounding_box": {
+            "x1": 24.25,
+            "y1": 137.88,
+            "x2": 105.53,
+            "y2": 239.75
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1455,
+      "timestamp": "00:48",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8405,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.98,
+            "y1": 84.59,
+            "x2": 193.95,
+            "y2": 213.86
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.718,
+          "priority": false,
+          "bounding_box": {
+            "x1": 164.69,
+            "y1": 110.75,
+            "x2": 248.58,
+            "y2": 223.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1470,
+      "timestamp": "00:49",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8321,
+          "priority": false,
+          "bounding_box": {
+            "x1": 131.43,
+            "y1": 84.98,
+            "x2": 194.2,
+            "y2": 214.14
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6355,
+          "priority": false,
+          "bounding_box": {
+            "x1": 174.34,
+            "y1": 111.25,
+            "x2": 247.68,
+            "y2": 223.38
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1485,
+      "timestamp": "00:49",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8335,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.04,
+            "y1": 84.45,
+            "x2": 193.63,
+            "y2": 213.81
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7157,
+          "priority": false,
+          "bounding_box": {
+            "x1": 181.13,
+            "y1": 111.95,
+            "x2": 247.09,
+            "y2": 223.35
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1500,
+      "timestamp": "00:50",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8129,
+          "priority": false,
+          "bounding_box": {
+            "x1": 133.26,
+            "y1": 79.94,
+            "x2": 188.62,
+            "y2": 216.05
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7731,
+          "priority": false,
+          "bounding_box": {
+            "x1": 163.83,
+            "y1": 112.16,
+            "x2": 246.29,
+            "y2": 226.7
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6339,
+          "priority": false,
+          "bounding_box": {
+            "x1": 16.5,
+            "y1": 143.38,
+            "x2": 79.65,
+            "y2": 239.78
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1515,
+      "timestamp": "00:50",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7967,
+          "priority": false,
+          "bounding_box": {
+            "x1": 163.96,
+            "y1": 112.43,
+            "x2": 246.31,
+            "y2": 228.84
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7895,
+          "priority": false,
+          "bounding_box": {
+            "x1": 127.26,
+            "y1": 84.75,
+            "x2": 186.81,
+            "y2": 217.19
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6515,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.51,
+            "y1": 148.24,
+            "x2": 78.67,
+            "y2": 239.88
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1530,
+      "timestamp": "00:51",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7929,
+          "priority": false,
+          "bounding_box": {
+            "x1": 164.67,
+            "y1": 112.43,
+            "x2": 246.95,
+            "y2": 231.61
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7243,
+          "priority": false,
+          "bounding_box": {
+            "x1": 124.29,
+            "y1": 91.68,
+            "x2": 183.94,
+            "y2": 218.47
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1545,
+      "timestamp": "00:51",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8089,
+          "priority": false,
+          "bounding_box": {
+            "x1": 120.69,
+            "y1": 94.66,
+            "x2": 186.74,
+            "y2": 218.62
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7629,
+          "priority": false,
+          "bounding_box": {
+            "x1": 163.18,
+            "y1": 112.54,
+            "x2": 247.02,
+            "y2": 232.65
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6187,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.2,
+            "y1": 149.39,
+            "x2": 56.24,
+            "y2": 233.21
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1560,
+      "timestamp": "00:52",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8211,
+          "priority": false,
+          "bounding_box": {
+            "x1": 125.37,
+            "y1": 95.07,
+            "x2": 190.48,
+            "y2": 222.02
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6726,
+          "priority": false,
+          "bounding_box": {
+            "x1": 170.28,
+            "y1": 112.47,
+            "x2": 246.81,
+            "y2": 228.5
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1575,
+      "timestamp": "00:52",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8253,
+          "priority": false,
+          "bounding_box": {
+            "x1": 120.98,
+            "y1": 81.51,
+            "x2": 189.11,
+            "y2": 216.76
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5831,
+          "priority": false,
+          "bounding_box": {
+            "x1": 162.73,
+            "y1": 112.48,
+            "x2": 247.38,
+            "y2": 233.06
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5415,
+          "priority": false,
+          "bounding_box": {
+            "x1": 4.73,
+            "y1": 148.91,
+            "x2": 92.5,
+            "y2": 239.77
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1590,
+      "timestamp": "00:53",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.674,
+          "priority": false,
+          "bounding_box": {
+            "x1": 114.15,
+            "y1": 86.04,
+            "x2": 175.4,
+            "y2": 215.36
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5551,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.62,
+            "y1": 112.4,
+            "x2": 246.71,
+            "y2": 221.67
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1605,
+      "timestamp": "00:53",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7495,
+          "priority": false,
+          "bounding_box": {
+            "x1": 80.32,
+            "y1": 88.25,
+            "x2": 181.21,
+            "y2": 219.77
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6272,
+          "priority": false,
+          "bounding_box": {
+            "x1": 7.99,
+            "y1": 150.68,
+            "x2": 89.24,
+            "y2": 239.78
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5219,
+          "priority": false,
+          "bounding_box": {
+            "x1": 173.16,
+            "y1": 112.65,
+            "x2": 246.39,
+            "y2": 226.11
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1620,
+      "timestamp": "00:54",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8234,
+          "priority": false,
+          "bounding_box": {
+            "x1": 107.41,
+            "y1": 90.15,
+            "x2": 172.96,
+            "y2": 215.05
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5963,
+          "priority": false,
+          "bounding_box": {
+            "x1": 173.95,
+            "y1": 112.53,
+            "x2": 246.47,
+            "y2": 225.96
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1635,
+      "timestamp": "00:54",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7722,
+          "priority": false,
+          "bounding_box": {
+            "x1": 109.16,
+            "y1": 89.36,
+            "x2": 172.7,
+            "y2": 210.73
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5985,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.5,
+            "y1": 112.39,
+            "x2": 247.61,
+            "y2": 226.61
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1650,
+      "timestamp": "00:55",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.826,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.31,
+            "y1": 89.74,
+            "x2": 172.94,
+            "y2": 211.83
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6804,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.68,
+            "y1": 112.43,
+            "x2": 247.01,
+            "y2": 227.31
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1665,
+      "timestamp": "00:55",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8377,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.23,
+            "y1": 91.55,
+            "x2": 173.59,
+            "y2": 213.39
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6309,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.07,
+            "y1": 112.63,
+            "x2": 246.15,
+            "y2": 226.87
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1680,
+      "timestamp": "00:56",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8426,
+          "priority": false,
+          "bounding_box": {
+            "x1": 109.76,
+            "y1": 92.18,
+            "x2": 174.25,
+            "y2": 213.2
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.748,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.45,
+            "y1": 112.59,
+            "x2": 246.25,
+            "y2": 225.53
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1695,
+      "timestamp": "00:56",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8346,
+          "priority": false,
+          "bounding_box": {
+            "x1": 111.05,
+            "y1": 91.57,
+            "x2": 174.37,
+            "y2": 212.25
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6908,
+          "priority": false,
+          "bounding_box": {
+            "x1": 178.65,
+            "y1": 112.63,
+            "x2": 246.49,
+            "y2": 223.99
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1710,
+      "timestamp": "00:57",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.847,
+          "priority": false,
+          "bounding_box": {
+            "x1": 111.36,
+            "y1": 92.38,
+            "x2": 174.21,
+            "y2": 211.17
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7271,
+          "priority": false,
+          "bounding_box": {
+            "x1": 180.43,
+            "y1": 112.6,
+            "x2": 246.58,
+            "y2": 224.27
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1725,
+      "timestamp": "00:57",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8245,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.0,
+            "y1": 91.68,
+            "x2": 174.31,
+            "y2": 215.8
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7204,
+          "priority": false,
+          "bounding_box": {
+            "x1": 180.48,
+            "y1": 112.56,
+            "x2": 246.82,
+            "y2": 225.26
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1740,
+      "timestamp": "00:58",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8469,
+          "priority": false,
+          "bounding_box": {
+            "x1": 111.88,
+            "y1": 93.4,
+            "x2": 174.33,
+            "y2": 215.5
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7585,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.46,
+            "y1": 112.54,
+            "x2": 246.25,
+            "y2": 228.25
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1755,
+      "timestamp": "00:58",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8461,
+          "priority": false,
+          "bounding_box": {
+            "x1": 184.35,
+            "y1": 112.67,
+            "x2": 246.27,
+            "y2": 227.18
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7572,
+          "priority": false,
+          "bounding_box": {
+            "x1": 112.86,
+            "y1": 93.03,
+            "x2": 175.15,
+            "y2": 214.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1770,
+      "timestamp": "00:59",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8283,
+          "priority": false,
+          "bounding_box": {
+            "x1": 183.49,
+            "y1": 112.67,
+            "x2": 246.42,
+            "y2": 225.46
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7351,
+          "priority": false,
+          "bounding_box": {
+            "x1": 115.67,
+            "y1": 93.46,
+            "x2": 175.12,
+            "y2": 213.22
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1785,
+      "timestamp": "00:59",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.843,
+          "priority": false,
+          "bounding_box": {
+            "x1": 183.94,
+            "y1": 112.52,
+            "x2": 246.15,
+            "y2": 228.04
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7405,
+          "priority": false,
+          "bounding_box": {
+            "x1": 109.74,
+            "y1": 88.28,
+            "x2": 174.45,
+            "y2": 211.75
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5356,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.28,
+            "y1": 149.18,
+            "x2": 91.17,
+            "y2": 239.45
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1800,
+      "timestamp": "01:00",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8279,
+          "priority": false,
+          "bounding_box": {
+            "x1": 184.3,
+            "y1": 112.43,
+            "x2": 246.2,
+            "y2": 228.28
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.822,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.48,
+            "y1": 90.96,
+            "x2": 174.0,
+            "y2": 214.22
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1815,
+      "timestamp": "01:00",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8414,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.58,
+            "y1": 88.86,
+            "x2": 173.45,
+            "y2": 214.22
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8224,
+          "priority": false,
+          "bounding_box": {
+            "x1": 185.7,
+            "y1": 112.3,
+            "x2": 246.54,
+            "y2": 222.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1830,
+      "timestamp": "01:01",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8463,
+          "priority": false,
+          "bounding_box": {
+            "x1": 109.16,
+            "y1": 88.67,
+            "x2": 173.68,
+            "y2": 212.27
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7992,
+          "priority": false,
+          "bounding_box": {
+            "x1": 184.57,
+            "y1": 112.74,
+            "x2": 247.31,
+            "y2": 221.55
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5956,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.12,
+            "y1": 148.44,
+            "x2": 89.83,
+            "y2": 239.46
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1845,
+      "timestamp": "01:01",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8433,
+          "priority": false,
+          "bounding_box": {
+            "x1": 108.93,
+            "y1": 94.67,
+            "x2": 173.75,
+            "y2": 212.71
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7758,
+          "priority": false,
+          "bounding_box": {
+            "x1": 2.01,
+            "y1": 133.45,
+            "x2": 86.42,
+            "y2": 235.53
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.748,
+          "priority": false,
+          "bounding_box": {
+            "x1": 184.05,
+            "y1": 112.62,
+            "x2": 247.65,
+            "y2": 223.42
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1860,
+      "timestamp": "01:02",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8934,
+          "priority": false,
+          "bounding_box": {
+            "x1": 23.38,
+            "y1": 94.81,
+            "x2": 82.64,
+            "y2": 239.0
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8251,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.55,
+            "y1": 89.42,
+            "x2": 173.41,
+            "y2": 212.53
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8027,
+          "priority": false,
+          "bounding_box": {
+            "x1": 185.5,
+            "y1": 112.21,
+            "x2": 247.24,
+            "y2": 224.58
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1875,
+      "timestamp": "01:02",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9271,
+          "priority": false,
+          "bounding_box": {
+            "x1": 20.89,
+            "y1": 87.41,
+            "x2": 84.83,
+            "y2": 239.66
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8613,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.08,
+            "y1": 89.53,
+            "x2": 176.82,
+            "y2": 214.19
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8256,
+          "priority": false,
+          "bounding_box": {
+            "x1": 186.29,
+            "y1": 112.63,
+            "x2": 247.97,
+            "y2": 221.7
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1890,
+      "timestamp": "01:03",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9064,
+          "priority": false,
+          "bounding_box": {
+            "x1": 21.94,
+            "y1": 90.8,
+            "x2": 87.52,
+            "y2": 239.35
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7648,
+          "priority": false,
+          "bounding_box": {
+            "x1": 101.64,
+            "y1": 93.32,
+            "x2": 183.62,
+            "y2": 218.27
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6071,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.17,
+            "y1": 112.73,
+            "x2": 246.84,
+            "y2": 223.64
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1905,
+      "timestamp": "01:03",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9087,
+          "priority": false,
+          "bounding_box": {
+            "x1": 26.09,
+            "y1": 92.55,
+            "x2": 93.76,
+            "y2": 239.57
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.846,
+          "priority": false,
+          "bounding_box": {
+            "x1": 108.99,
+            "y1": 87.9,
+            "x2": 182.77,
+            "y2": 214.36
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5737,
+          "priority": false,
+          "bounding_box": {
+            "x1": 179.98,
+            "y1": 112.77,
+            "x2": 246.04,
+            "y2": 224.19
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1920,
+      "timestamp": "01:04",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8229,
+          "priority": false,
+          "bounding_box": {
+            "x1": 119.38,
+            "y1": 86.31,
+            "x2": 188.02,
+            "y2": 218.64
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8193,
+          "priority": false,
+          "bounding_box": {
+            "x1": 36.92,
+            "y1": 82.12,
+            "x2": 106.65,
+            "y2": 239.78
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7576,
+          "priority": false,
+          "bounding_box": {
+            "x1": 185.15,
+            "y1": 112.83,
+            "x2": 245.87,
+            "y2": 224.83
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1935,
+      "timestamp": "01:04",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8922,
+          "priority": false,
+          "bounding_box": {
+            "x1": 38.06,
+            "y1": 99.65,
+            "x2": 101.42,
+            "y2": 239.56
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8525,
+          "priority": false,
+          "bounding_box": {
+            "x1": 123.59,
+            "y1": 79.84,
+            "x2": 185.59,
+            "y2": 221.8
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7296,
+          "priority": false,
+          "bounding_box": {
+            "x1": 185.93,
+            "y1": 112.81,
+            "x2": 247.14,
+            "y2": 225.53
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1950,
+      "timestamp": "01:05",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9263,
+          "priority": false,
+          "bounding_box": {
+            "x1": 36.03,
+            "y1": 99.67,
+            "x2": 95.89,
+            "y2": 239.76
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8637,
+          "priority": false,
+          "bounding_box": {
+            "x1": 131.52,
+            "y1": 85.91,
+            "x2": 188.03,
+            "y2": 216.87
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8344,
+          "priority": false,
+          "bounding_box": {
+            "x1": 186.69,
+            "y1": 112.7,
+            "x2": 248.22,
+            "y2": 224.17
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1965,
+      "timestamp": "01:05",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9148,
+          "priority": false,
+          "bounding_box": {
+            "x1": 36.35,
+            "y1": 99.66,
+            "x2": 97.88,
+            "y2": 239.73
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8719,
+          "priority": false,
+          "bounding_box": {
+            "x1": 133.81,
+            "y1": 85.63,
+            "x2": 188.13,
+            "y2": 215.58
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8507,
+          "priority": false,
+          "bounding_box": {
+            "x1": 185.68,
+            "y1": 112.67,
+            "x2": 248.45,
+            "y2": 223.33
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1980,
+      "timestamp": "01:06",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9137,
+          "priority": false,
+          "bounding_box": {
+            "x1": 34.95,
+            "y1": 99.56,
+            "x2": 94.61,
+            "y2": 239.69
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8788,
+          "priority": false,
+          "bounding_box": {
+            "x1": 133.75,
+            "y1": 87.87,
+            "x2": 186.89,
+            "y2": 215.48
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8276,
+          "priority": false,
+          "bounding_box": {
+            "x1": 183.79,
+            "y1": 112.95,
+            "x2": 247.92,
+            "y2": 224.39
+          }
+        }
+      ]
+    },
+    {
+      "frame": 1995,
+      "timestamp": "01:06",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9176,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.36,
+            "y1": 99.86,
+            "x2": 94.49,
+            "y2": 239.69
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.86,
+          "priority": false,
+          "bounding_box": {
+            "x1": 129.42,
+            "y1": 88.78,
+            "x2": 185.02,
+            "y2": 217.11
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7132,
+          "priority": false,
+          "bounding_box": {
+            "x1": 180.67,
+            "y1": 112.63,
+            "x2": 246.98,
+            "y2": 227.37
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2010,
+      "timestamp": "01:07",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9126,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.71,
+            "y1": 99.21,
+            "x2": 93.37,
+            "y2": 239.79
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8191,
+          "priority": false,
+          "bounding_box": {
+            "x1": 130.81,
+            "y1": 90.3,
+            "x2": 185.0,
+            "y2": 218.71
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5766,
+          "priority": false,
+          "bounding_box": {
+            "x1": 164.06,
+            "y1": 112.68,
+            "x2": 247.57,
+            "y2": 234.29
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2025,
+      "timestamp": "01:07",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9172,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.58,
+            "y1": 99.98,
+            "x2": 94.53,
+            "y2": 239.81
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8315,
+          "priority": false,
+          "bounding_box": {
+            "x1": 130.29,
+            "y1": 87.38,
+            "x2": 185.05,
+            "y2": 217.09
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5865,
+          "priority": false,
+          "bounding_box": {
+            "x1": 170.86,
+            "y1": 112.63,
+            "x2": 246.25,
+            "y2": 226.34
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2040,
+      "timestamp": "01:08",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9214,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.56,
+            "y1": 100.54,
+            "x2": 95.16,
+            "y2": 239.84
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8785,
+          "priority": false,
+          "bounding_box": {
+            "x1": 134.84,
+            "y1": 83.59,
+            "x2": 194.03,
+            "y2": 216.75
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6286,
+          "priority": false,
+          "bounding_box": {
+            "x1": 163.9,
+            "y1": 112.58,
+            "x2": 246.54,
+            "y2": 232.16
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2055,
+      "timestamp": "01:08",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.926,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.64,
+            "y1": 100.41,
+            "x2": 93.55,
+            "y2": 239.79
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8231,
+          "priority": false,
+          "bounding_box": {
+            "x1": 131.43,
+            "y1": 88.89,
+            "x2": 188.67,
+            "y2": 218.66
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8153,
+          "priority": false,
+          "bounding_box": {
+            "x1": 182.2,
+            "y1": 112.77,
+            "x2": 245.97,
+            "y2": 226.15
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2070,
+      "timestamp": "01:09",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9221,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.83,
+            "y1": 99.67,
+            "x2": 91.43,
+            "y2": 239.79
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8395,
+          "priority": false,
+          "bounding_box": {
+            "x1": 125.45,
+            "y1": 82.1,
+            "x2": 188.94,
+            "y2": 218.41
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6822,
+          "priority": false,
+          "bounding_box": {
+            "x1": 166.31,
+            "y1": 112.7,
+            "x2": 246.77,
+            "y2": 229.2
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2085,
+      "timestamp": "01:09",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.9081,
+          "priority": false,
+          "bounding_box": {
+            "x1": 35.48,
+            "y1": 97.33,
+            "x2": 94.06,
+            "y2": 239.83
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8167,
+          "priority": false,
+          "bounding_box": {
+            "x1": 96.28,
+            "y1": 77.02,
+            "x2": 193.58,
+            "y2": 212.74
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7394,
+          "priority": false,
+          "bounding_box": {
+            "x1": 177.49,
+            "y1": 112.48,
+            "x2": 245.91,
+            "y2": 226.18
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2100,
+      "timestamp": "01:10",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8458,
+          "priority": false,
+          "bounding_box": {
+            "x1": 106.9,
+            "y1": 78.61,
+            "x2": 184.47,
+            "y2": 213.4
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7908,
+          "priority": false,
+          "bounding_box": {
+            "x1": 170.54,
+            "y1": 110.86,
+            "x2": 240.76,
+            "y2": 228.78
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.5018,
+          "priority": false,
+          "bounding_box": {
+            "x1": 1.87,
+            "y1": 108.38,
+            "x2": 43.05,
+            "y2": 235.69
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2115,
+      "timestamp": "01:10",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8669,
+          "priority": false,
+          "bounding_box": {
+            "x1": 110.85,
+            "y1": 96.84,
+            "x2": 204.35,
+            "y2": 218.39
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7708,
+          "priority": false,
+          "bounding_box": {
+            "x1": 194.04,
+            "y1": 108.93,
+            "x2": 242.46,
+            "y2": 221.39
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2130,
+      "timestamp": "01:11",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7715,
+          "priority": false,
+          "bounding_box": {
+            "x1": 221.12,
+            "y1": 101.64,
+            "x2": 280.55,
+            "y2": 226.73
+          }
+        },
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7605,
+          "priority": false,
+          "bounding_box": {
+            "x1": 173.61,
+            "y1": 117.63,
+            "x2": 253.51,
+            "y2": 229.34
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2145,
+      "timestamp": "01:11",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7427,
+          "priority": false,
+          "bounding_box": {
+            "x1": 221.74,
+            "y1": 131.61,
+            "x2": 284.92,
+            "y2": 218.66
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2160,
+      "timestamp": "01:12",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8476,
+          "priority": false,
+          "bounding_box": {
+            "x1": 191.7,
+            "y1": 73.98,
+            "x2": 241.03,
+            "y2": 228.89
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2175,
+      "timestamp": "01:12",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.8765,
+          "priority": false,
+          "bounding_box": {
+            "x1": 196.53,
+            "y1": 80.34,
+            "x2": 263.87,
+            "y2": 220.13
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2190,
+      "timestamp": "01:13",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7551,
+          "priority": false,
+          "bounding_box": {
+            "x1": 247.0,
+            "y1": 99.73,
+            "x2": 313.32,
+            "y2": 225.64
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2280,
+      "timestamp": "01:16",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7171,
+          "priority": false,
+          "bounding_box": {
+            "x1": 143.65,
+            "y1": 48.92,
+            "x2": 184.38,
+            "y2": 170.77
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2295,
+      "timestamp": "01:16",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.6436,
+          "priority": false,
+          "bounding_box": {
+            "x1": 161.88,
+            "y1": 39.39,
+            "x2": 198.06,
+            "y2": 142.36
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2325,
+      "timestamp": "01:17",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7886,
+          "priority": false,
+          "bounding_box": {
+            "x1": 158.6,
+            "y1": 65.06,
+            "x2": 208.18,
+            "y2": 147.53
+          }
+        }
+      ]
+    },
+    {
+      "frame": 2400,
+      "timestamp": "01:20",
+      "has_priority_objects": false,
+      "objects": [
+        {
+          "class_id": 0,
+          "class_name": "person",
+          "confidence": 0.7716,
+          "priority": false,
+          "bounding_box": {
+            "x1": 221.08,
+            "y1": 108.83,
+            "x2": 279.26,
+            "y2": 225.82
+          }
+        }
+      ]
+    }
+  ]
+}
