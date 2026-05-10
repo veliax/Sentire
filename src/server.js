@@ -1,13 +1,17 @@
+import 'dotenv/config'
 import express from 'express'
 import db from './database/db_setup.js'
 import authRoute from '../src/routes/authRoute.js'
 import authMiddleware from '../src/middleWares/authMiddleware.js'
 import userRoute from '../src/routes/userRoute.js'
+import reportRoute from './routes/reportRoute.js'
 import { CronJob } from 'cron'
 import videoRoute from './routes/videoRoute.js'
 import cors from 'cors'
 import path from 'path'
 import { fileURLToPath } from 'url'
+
+console.log('GEMINI key loaded:', process.env.GEMINI_API_KEY ? 'yes' : 'no')
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -38,6 +42,8 @@ app.get('/signup', (req, res) => {
 app.use('/api/auth', authRoute)
 app.use('/api/user', authMiddleware, userRoute)
 app.use('/api/video', authMiddleware, videoRoute)
+app.use('/api/video', authMiddleware, reportRoute)   // POST/GET /api/video/:id/report, GET /api/video/:id/report/pdf
+app.use('/api/reports', authMiddleware, reportRoute) // GET /api/reports (list)
 
 const deleteFromDb = CronJob.from({
     cronTime: '0 0 0 * * *',
