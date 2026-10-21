@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+google-genai
+numpy
+scikit-learn
+matplotlib

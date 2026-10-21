@@ -1,67 +1,92 @@
 # Sentire
-An Intelligent General Purpose Incident Detection System
 
-## Frontend Obejctives for 18th of february
-1. Login page with form that can be sent to the backend via json format
+**An intelligent, general-purpose incident detection system for video footage.**
 
-2. Signup page with form that can be sent to the backend via json format
+Sentire takes an uploaded video, finds people and weapons in it with YOLOv8, then hands the footage and detections to Google's Gemini vision-language model, which returns a timeline of what happened: each incident described in plain language with its start and end time (for example, a theft, the weapon involved and when it occurred). Results can be exported as a written PDF report.
 
-## Backend Objectives for 18th of february (Done)
-### Construct the skeleton (Done) 
-Create The initial necessary files, Ensure that nodejs works, Package json should have the modules type, Additionally you should create the majority of the directories you will work in. 
+Built as a graduation project at King Abdulaziz University. Every part of the system, backend, detection pipeline and frontend, was developed by [Hamzah Alsharief](https://www.linkedin.com/in/hamzah-alsharief).
 
-### Create The database's script (Done)
-Create A database initialziation script that will run once during each instance of the project. (A script that will initilize the schema we created once).
+## How it works
 
-### Create the initial authentication process (Done)
-1. Ensure that users can create accounts / login
+```mermaid
+flowchart LR
+    A[Video upload] --> B[Express API<br/>multer + ffprobe]
+    B --> C[YOLOv8s detection<br/>2 frames per second]
+    C --> D[(SQLite)]
+    C --> E[Gemini 2.5 Flash<br/>video + detections]
+    E --> F[Timestamped incident events]
+    F --> D
+    D --> G[Narrative report<br/>PDF via Puppeteer]
+```
 
-2. Create the auth jwt token file and ensure that jwt is properly being sent and stored.
+1. **Upload.** An authenticated user uploads a video. The API stores it, reads its duration with `ffprobe`, and starts the pipeline in the background so the request returns immediately.
+2. **Detection.** `src/pipeline/detect.py` samples two frames per second and runs YOLOv8s, keeping only the classes the system cares about (person, knife, scissors) and flagging weapons as high priority. It writes the bounding boxes, an annotated copy of the video and a compact summary for the next stage.
+3. **Interpretation.** `src/pipeline/vlm.py` sends the original video plus the detection summary to Gemini 2.5 Flash with a structured-output schema, so the model returns machine-readable events instead of free text.
+4. **Storage.** Node validates the events and stores them in SQLite against the video.
+5. **Reporting.** `src/pipeline/report.py` asks Gemini to write a professional incident narrative from the events and detection statistics, and the API renders it to PDF with Puppeteer.
 
-3. Create the middleware that will exist between each request for each route 
+## Features
 
-## Backend Objectives for 25th of february
-### User Crud
-Completing User Crud capabilites
-1. Create (done)
-2. Read (done)
-3. Update (Done)
-4. Delete (Done)
+- **Authentication:** registration and login with bcrypt-hashed passwords and JWTs that expire after one hour, enforced by middleware on every protected route.
+- **Access control:** accounts carry a `user`, `admin` or `rootAdmin` role, and every video and report query is scoped to the logged-in user, so users only ever see their own data.
+- **Account lifecycle:** soft deletion of accounts, with a nightly cron job that permanently removes accounts deleted more than a year ago.
+- **Video processing:** upload, background detection and interpretation, and per-video incident timelines.
+- **Reports:** narrative incident reports, viewable in the app or downloadable as PDF.
 
-All of these should be within the /api/userRoute.js file 
+## Evaluation
 
-### Cron Jobs (Done)
-Initially for deleted users past one year (Will Test with 1 minute).
+The detection stage was evaluated on 2,125 detections across 12 processed videos, plus validation on COCO128 restricted to the three classes the system uses. Full results and plots are in [`kmeans_results/report.md`](kmeans_results/report.md).
 
-I will implement it for deleted or unwanted videos as well after videos are implemented.
+| Class | Precision | Recall | mAP@0.5 |
+|---|---|---|---|
+| Person | 0.862 | 0.717 | 0.825 |
+| Knife | 0.855 | 0.688 | 0.819 |
 
-will be done within the user.js  (I already coded this just need to reimplement it)
+K-means clustering on the detected bounding boxes (elbow analysis, k = 4) reached an average IoU of 0.692 between boxes and their anchor centroids.
 
-### file storing 
-implement file storing for videos (decide on a video format, most likely whichever is compatible with ffmpeg) and store its path within the database
+## Tech stack
 
-### Emails
-I already have the code for it just need to reimplement
-will be helpful for 2 step verification (which will be implemented once the core of the project is done)
+| Layer | Tools |
+|---|---|
+| Backend | Node.js, Express 5, better-sqlite3, JWT, bcrypt, multer, cron |
+| Detection | Python, Ultralytics YOLOv8, OpenCV, ffmpeg/ffprobe |
+| Interpretation | Google Gemini 2.5 Flash (`google-genai`) |
+| Reporting | Puppeteer (PDF rendering) |
+| Frontend | Next.js, TypeScript, shadcn/ui |
+| Evaluation | scikit-learn, NumPy, Matplotlib |
 
-### Admin Privs
-Since we use role based access controls it should be easy 
-I've already coded a manual solution where a root admin exists and gives others admin privs
+## API
 
-Idk if its a correct approach and how to automate it though (ask dr or research)
+| Method | Endpoint | Purpose |
+|---|---|---|
+| POST | `/api/auth/register` | Create an account |
+| POST | `/api/auth/login` | Log in and receive a JWT |
+| GET / PUT / DELETE | `/api/user/profile` | Read, update or delete your profile |
+| POST | `/api/video/upload` | Upload a video and start the pipeline |
+| GET | `/api/video` | List your videos |
+| GET | `/api/video/:id` | Get a video with its detected events |
+| POST / GET | `/api/video/:id/report` | Generate or fetch the incident report |
+| GET | `/api/video/:id/report/pdf` | Download the report as PDF |
+| GET | `/api/reports` | List your reports |
 
-### EXCLUDE THE .ENV FILE FROM GIT AND REMOVE IT FROM GITHUB IMPORTANT------
+All routes except `/api/auth/*` require an `Authorization: Bearer <token>` header. `src/testingApiEndpoints.bash` exercises the endpoints with curl.
 
-## Objectives that we've yet to set a date on 
-### Docker
-Should be relatively late after the projects done, unless issues regarding differences in development environments arise
+## Running it locally
 
-### Two Step verification
-Most likely through a simple email code (as its the easiest to implement) however if there is enough time then implement a unique way as the dr instructed us to 
+Requirements: Node.js 20+, Python 3.10+, ffmpeg, and a [Gemini API key](https://aistudio.google.com/apikey).
 
-### Dealing with Gemini api 
+```bash
+git clone https://github.com/veliax/Sentire.git
+cd Sentire
+npm install
 
-### Yolov8 Object Detection
+python3 -m venv venv
+./venv/bin/pip install -r requirements.txt
 
-### Frame Splitting
+cp .env.example .env
+npm run dev
+```
 
+Fill in `JWT_SECRET` and `GEMINI_API_KEY` in `.env` before starting. The API runs on `http://localhost:5000` and accepts requests from the frontend on `http://localhost:3000`. YOLOv8 weights are downloaded automatically on the first run.
+
+The development log for the project is in [`docs/devlog.md`](docs/devlog.md).
